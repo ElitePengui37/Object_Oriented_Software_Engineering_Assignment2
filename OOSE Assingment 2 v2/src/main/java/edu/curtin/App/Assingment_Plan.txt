@@ -37,10 +37,10 @@ no marks awarded but this will be the documentation
 Implementation Plan
 
 
-Have variable for Day and increment it each day for command line UI (not other UI)
+Have variable for Day and increment it each day for command line UI (not other UI)          ///     Later must send this to GUI object when observer pattern is implemented
 
 
-read each new line using inp.nextMessage until message is not null (add to list)
+read each new line using inp.nextMessage until message is not null (add to list)  msgList      ///
 
     Go throuh that list
     during this process look for strings    (check for predefined structure otherwise ignore result as provided file is an error check file alot to make sure you got all possibilities)
@@ -48,8 +48,11 @@ read each new line using inp.nextMessage until message is not null (add to list)
         railway-construction
         railway-duplication
             create new object using object factory
+            add that object to new list shown below
+    clear msgList before going onto the next cycle
 
-add any new railways and connecctions to list with town names and add flag in the string after a space to indicate single or dual direction
+add any new railways and connecctions to new list with town names and add flag in the string after a space to indicate single or dual direction
+add towns to town object list
 
 use observer pattern next to send from lists to file/io and command line (UI)
     Send population and track info to each and use method to calculate
