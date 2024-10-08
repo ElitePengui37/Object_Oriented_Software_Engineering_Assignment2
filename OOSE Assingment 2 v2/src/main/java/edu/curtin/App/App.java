@@ -4,6 +4,7 @@ package edu.curtin.App;
 import main.java.edu.GUI.Graphics;
 import main.java.edu.FileIO.FileProcessor;
 import edu.curtin.oose2024s2.assignment2.TownsInput;
+import main.java.edu.Factory.*;
 import java.io.*;
 import java.util.List;
 import java.util.ArrayList;
@@ -54,6 +55,15 @@ public class App
                 {
                     System.out.println(item);
                 }
+
+                // Inject the message list into the factory
+                ObjectFactory factory = new ObjectFactory(msgList); // testing factory
+
+                // Process the messages
+                factory.processMessages();
+
+                // clear megList
+                msgList.clear();
 
                 // Wait 1 second
                 try
