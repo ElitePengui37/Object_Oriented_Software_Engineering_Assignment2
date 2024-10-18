@@ -101,4 +101,15 @@ public class ObjectFactory
             }*/
         }
     }
+
+
+    public List<TownInterface> getTowns()
+    {
+        return towns; // Return the current list of towns for observer pattern
+    }
+
+    public List<RailwayInterface> getRailways()
+    {
+        return railways; // Return the current list of railways for observer pattern
+    }
 }

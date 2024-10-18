@@ -36,13 +36,20 @@ public class App
         ObjectFactory factory = new ObjectFactory();
 
 
+        // observer pattern subject object
+        Subject subject = new Subject();
+
+        // add GUI and FileIO objects to the subject
+        subject.addObserver(GUI);
+        subject.addObserver(FileIO);
+
+
         try
         {
             while(System.in.available() == 0)
             {
-                // ... ?
 
-                // For illustration purposes -- this just prints out the messages as they come in.
+                // For illustration purposes -- this just prints out the messages as they come in later put this into the gui part.
                 System.out.println("---");
                 System.out.println("DAY " + day +":\n"); // display day later move this into the GUI object when observer pattern has been implemented
                 String msg = inp.nextMessage();
@@ -60,12 +67,14 @@ public class App
                 }
 
                 
-                //ObjectFactory factory = new ObjectFactory();
                 // Inject message list into factory every timestep
                 factory.setMessages(msgList);
 
                 // Process the messages
                 factory.processMessages();
+
+                // notify observers of changes
+                subject.update(factory.getTowns(), factory.getRailways()); // get town new info from object factory lists
 
                 // clear megList
                 msgList.clear();

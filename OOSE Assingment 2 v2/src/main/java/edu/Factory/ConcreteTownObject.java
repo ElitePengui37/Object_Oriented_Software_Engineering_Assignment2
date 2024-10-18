@@ -20,4 +20,5 @@ public class ConcreteTownObject implements TownInterface
     {
         return name;
     }
+
 }
