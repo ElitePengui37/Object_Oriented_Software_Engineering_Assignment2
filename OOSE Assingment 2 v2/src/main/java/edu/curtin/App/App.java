@@ -32,6 +32,9 @@ public class App
         GUI.CreateObject();
         FileIO.CreateFileObject();
 
+        // object factory
+        ObjectFactory factory = new ObjectFactory();
+
 
         try
         {
@@ -56,8 +59,10 @@ public class App
                     System.out.println(item);
                 }
 
-                // Inject the message list into the factory
-                ObjectFactory factory = new ObjectFactory(msgList); // testing factory
+                
+                //ObjectFactory factory = new ObjectFactory();
+                // Inject message list into factory every timestep
+                factory.setMessages(msgList);
 
                 // Process the messages
                 factory.processMessages();

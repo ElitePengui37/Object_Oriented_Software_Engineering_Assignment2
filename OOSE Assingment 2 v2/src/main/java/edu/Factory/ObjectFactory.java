@@ -5,12 +5,15 @@ import java.util.ArrayList;
 
 public class ObjectFactory
 {
-    private final List<String> messages;   // msgList
+    private List<String> messages;   // msgList
     private final List<TownInterface> towns = new ArrayList<>();   // Store towns
     private final List<RailwayInterface> railways = new ArrayList<>(); // Store railways
 
-    // Constructor for dependency injection
-    public ObjectFactory(List<String> messages) {
+    // Constructor
+    public ObjectFactory() {}
+
+    public void setMessages(List<String> messages) // message list is set for every timestep
+    {
         this.messages = messages;
     }
 
@@ -21,25 +24,36 @@ public class ObjectFactory
             String[] parts = message.split(" ");
             String action = parts[0];
 
-            if(action.equals("town-founding"))
+            if(action.equals("town-founding") && parts.length > 2) // parts more then 2 prevents errors
             {
-                    TownInterface newTown = new ConcreteTownObject();
-                    towns.add(newTown);
-                    System.out.println("New town founded!");
+                String townName = parts[1];
+                Integer townPopulation = Integer.parseInt(parts[2]);
+
+                TownInterface newTown = new ConcreteTownObject(townName, townPopulation);
+                towns.add(newTown);
+                System.out.println("New town founded!");
+
             }
-            else if(action.equals("town-population"))
+            else if(action.equals("town-population") && parts.length > 2) // prevent short bugged inputs from making it through
             {
-                    if (parts.length > 1 && !towns.isEmpty())
+                String townName = parts[1];
+                Integer townPopulation = Integer.parseInt(parts[2]); // add exception handling for this part and ignore the value
+                boolean found = false;
+                
+                //System.out.println("DEBUG CHECKING TOWN POPULATION FOR TOWN " + townName + " POPULATION " + townPopulation); // change this to log.info later
+                for(TownInterface town : towns) // find town and update population
+                {
+                    if (town instanceof ConcreteTownObject && ((ConcreteTownObject)town).getName().equals(townName)) // update town population only if town is found (some town names may be error names)
                     {
-                        Integer population = Integer.parseInt(parts[1]);
-                        TownInterface lastTown = towns.get(towns.size() - 1);
-                        lastTown.setUpdatePopulation(population);
-                        System.out.println("Town population updated to: " + population);
+                        town.setUpdatePopulation(townPopulation);
+                        found = true; // town has been found and updated
                     }
-                    else 
-                    {
-                        System.out.println("No town found or invalid population input.");
-                    }
+                }
+
+                if (!found)
+                {
+                    System.out.println("Unable to update population " + townName + " not found.");
+                }
             }
             else if(action.equals("railway-construction")) // railway cases
             {
@@ -60,6 +74,16 @@ public class ObjectFactory
                         System.out.println("No railway found to duplicate.");
                     }
             }
+
+            // debugging block use this to see town statistics in town list
+            /*System.out.println("\n\nDebug town list: ");
+            for(TownInterface town : towns)
+            {
+                if (town instanceof ConcreteTownObject) {
+                    ConcreteTownObject concreteTown = (ConcreteTownObject) town;
+                    System.out.println("Town: " + concreteTown.getName() + ", Population: " + concreteTown.population);
+                }
+            }*/
         }
     }
 }
