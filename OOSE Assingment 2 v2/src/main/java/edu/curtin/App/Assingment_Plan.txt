@@ -78,5 +78,3 @@ double ended tracks (railway-duplication) send up to 100 goods in both direction
 
 
 
-TODO get observer pattern to work
-

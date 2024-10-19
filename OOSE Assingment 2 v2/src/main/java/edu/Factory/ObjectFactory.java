@@ -1,5 +1,8 @@
 package main.java.edu.Factory;
 
+
+import main.java.edu.State.RailwayController;
+import main.java.edu.State.BuildingState;
 import java.util.List;
 import java.util.ArrayList;
 
@@ -8,6 +11,7 @@ public class ObjectFactory
     private List<String> messages;   // msgList
     private final List<TownInterface> towns = new ArrayList<>();   // Store towns
     private final List<RailwayInterface> railways = new ArrayList<>(); // Store railways
+    private final List<RailwayController> controllers = new ArrayList<>(); // store railway controller classes from state pattern to 
 
     // Constructor
     public ObjectFactory() {}
@@ -62,7 +66,10 @@ public class ObjectFactory
 
                 RailwayInterface newRail = new ConcreteRailObject(town1, town2); // two way is set to false by default
                 railways.add(newRail);
-                System.out.println("New railway constructed!");
+                
+                // Add a new RailwayController for this railway
+                RailwayController newController = new RailwayController(newRail);
+                controllers.add(newController);
             }
             else if(action.equals("railway-duplication") && parts.length == 3) 
             {
@@ -73,6 +80,10 @@ public class ObjectFactory
                 {
                     RailwayInterface lastRail = railways.get(railways.size() - 1);
                     lastRail.setRailwayDuplication(); // testing duplication use this in later by state pattern
+
+
+                    RailwayController lastController = controllers.get(controllers.size() - 1);  // Reset to "Building" state for 5 more days (doesnt matter if rail is still being built)
+                    lastController.updateTwoWay();
                 }
                 else
                 {
@@ -81,7 +92,7 @@ public class ObjectFactory
             }
 
             // Display all railways after processing the messages used for debugging
-            System.out.println("Current list of railways:");
+            //System.out.println("Current list of railways:");
             /*for (RailwayInterface rail : railways)
             {
                 if (rail instanceof ConcreteRailObject)
@@ -100,7 +111,15 @@ public class ObjectFactory
                 }
             }*/
         }
+
+        // Process railway state updates (build progress)
+        for (RailwayController controller : controllers)
+        {
+            controller.startBuilding();  // Update build state
+        }
     }
+
+    
 
 
     public List<TownInterface> getTowns()
