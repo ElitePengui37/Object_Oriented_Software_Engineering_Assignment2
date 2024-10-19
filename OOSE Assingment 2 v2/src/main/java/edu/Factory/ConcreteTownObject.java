@@ -16,9 +16,16 @@ public class ConcreteTownObject implements TownInterface
         System.out.println("Population of town " + name + " set to: " + population);
     }
 
+    @Override
     public String getName()
     {
         return name;
+    }
+
+    @Override
+    public Integer getPopulation()
+    {
+        return population;
     }
 
 }

@@ -22,7 +22,7 @@ public class ConcreteRailObject implements RailwayInterface
 
 
 
-
+    @Override // retrieves all info needed for rail by observer pattern
     public String getRailInfo()
     {
         return town1 + " " + town2 + " " + twoWay;

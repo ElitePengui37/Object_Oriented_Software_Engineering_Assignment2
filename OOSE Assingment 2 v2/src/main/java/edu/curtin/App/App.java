@@ -4,6 +4,7 @@ package edu.curtin.App;
 import main.java.edu.GUI.Graphics;
 import main.java.edu.FileIO.FileProcessor;
 import edu.curtin.oose2024s2.assignment2.TownsInput;
+import main.java.edu.Observer.*;
 import main.java.edu.Factory.*;
 import java.io.*;
 import java.util.List;
@@ -74,7 +75,7 @@ public class App
                 factory.processMessages();
 
                 // notify observers of changes
-                subject.update(factory.getTowns(), factory.getRailways()); // get town new info from object factory lists
+                subject.receiveUpdate(factory.getTowns(), factory.getRailways()); // get town new info from object factory lists
 
                 // clear megList
                 msgList.clear();

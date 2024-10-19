@@ -74,3 +74,9 @@ a single ended track sends up to 100 goods per day (if it can in a single direct
 double ended tracks (railway-duplication) send up to 100 goods in both directions per day (no need to switch directions)
 
 
+
+
+
+
+TODO get observer pattern to work
+

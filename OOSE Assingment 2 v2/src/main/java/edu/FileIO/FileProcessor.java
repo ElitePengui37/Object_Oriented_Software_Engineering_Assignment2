@@ -16,17 +16,19 @@ public class FileProcessor implements Observer {
     {
         System.out.println("Updating file with the latest towns and railways:");
         
-        // Implement file writing logic here
-        System.out.println("Towns:");
+        // Implement file writing logic here later
+        System.out.println("Checking Towns statss: (FILE)");
         for (TownInterface town : towns) {
             // Write town data to file
             System.out.println(town.getName() + " - Population: " + town.getPopulation());
         }
+        System.out.println("\n\n");
         
-        System.out.println("Railways:");
+        System.out.println("Checking railsways stats: (FILE)");
         for (RailwayInterface railway : railways) {
             // Write railway data to file
             System.out.println(railway.getRailInfo());
         }
+        System.out.println("\n\n");
     }
 }
