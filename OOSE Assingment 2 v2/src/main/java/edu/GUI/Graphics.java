@@ -29,7 +29,7 @@ public class Graphics implements Observer
 
 
         // handle towns
-        System.out.println("Updating GUI with the latest towns and railways:");
+        /*System.out.println("Updating GUI with the latest towns and railways:");
         
         System.out.println("Checking Towns Values: (GUI)");
         System.out.println("THE CURRENT DAY IS " + day);
@@ -37,15 +37,15 @@ public class Graphics implements Observer
             System.out.println(town.getName() + " - Population: " + town.getPopulation());
             System.out.println("RESOURCES: " + town.getStockpile());
         }
-        System.out.println("\n\n");
+        System.out.println("\n\n");*/ // uncomment when finshed debugging
         
 
         // handle railways
-        System.out.println("Checking Railways stats: (GUI)");
+        /*System.out.println("Checking Railways stats: (GUI)");
         for (RailwayInterface railway : railways) {
             System.out.println(railway.getRailInfo());
         }
-        System.out.println("\n\n");
+        System.out.println("\n\n");*/ // uncomment when finished debugging
 
 
         // Check the state of all railways
@@ -122,11 +122,17 @@ public class Graphics implements Observer
                         Integer goodsToTransportFirst = Math.min(100, town1.getStockpile());
                         Integer goodsToTransportSecond = Math.min(100, town2.getStockpile());
 
-                        town1.reduceStockpile(town1.getStockpile() - goodsToTransportFirst);
-                        town2.reduceStockpile(town2.getStockpile() - goodsToTransportSecond);
+                        // Display stockpile before deduction
+                        System.out.println("Before transporting from " + town1.getName() + ": " + town1.getStockpile() + " goods.");
+                        System.out.println("Before transporting from " + town2.getName() + ": " + town2.getStockpile() + " goods.");
 
-                        System.out.println("Transported " + goodsToTransportFirst + " from " + town1.getName());
-                        System.out.println("Transported " + goodsToTransportSecond + " from " + town2.getName());
+
+                        town1.reduceStockpile(goodsToTransportFirst);
+                        town2.reduceStockpile(goodsToTransportSecond);
+
+                        // Display stockpile after deduction
+                        System.out.println("After transporting from " + town1.getName() + ": " + town1.getStockpile() + " goods.");
+                        System.out.println("After transporting from " + town2.getName() + ": " + town2.getStockpile() + " goods.");
 
                         town1.addGoodsTransported(goodsToTransportFirst);
                         town2.addGoodsTransported(goodsToTransportSecond);
@@ -140,7 +146,15 @@ public class Graphics implements Observer
                         {
                             // Odd day - Transport from first town
                             Integer goodsToTransport = Math.min(100, town1.getStockpile());
-                            town1.reduceStockpile(town1.getStockpile() - goodsToTransport);
+                            
+                            // Display stockpile before deduction
+                            System.out.println("Before transporting from " + town1.getName() + ": " + town1.getStockpile() + " goods.");
+
+                            town1.reduceStockpile(goodsToTransport);
+
+                            // display stockpile after defuction
+                            System.out.println("After transporting from " + town1.getName() + ": " + town1.getStockpile() + " goods.");
+
                             town1.addGoodsTransported(goodsToTransport);
                             System.out.println("Transported " + goodsToTransport + " from " + town1.getName());
                         }
@@ -148,7 +162,15 @@ public class Graphics implements Observer
                         {
                             // Even day - Transport from second town
                             Integer goodsToTransport = Math.min(100, town2.getStockpile());
-                            town2.reduceStockpile(town2.getStockpile() - goodsToTransport);
+
+                            // Display stockpile before deduction
+                            System.out.println("Before transporting from " + town2.getName() + ": " + town2.getStockpile() + " goods.");
+
+                            town2.reduceStockpile(goodsToTransport);
+                            
+                            // Display stockpile after deduction
+                            System.out.println("After transporting from " + town2.getName() + ": " + town2.getStockpile() + " goods.");
+
                             town2.addGoodsTransported(goodsToTransport);
                             System.out.println("Transported " + goodsToTransport + " from " + town2.getName());
                         }

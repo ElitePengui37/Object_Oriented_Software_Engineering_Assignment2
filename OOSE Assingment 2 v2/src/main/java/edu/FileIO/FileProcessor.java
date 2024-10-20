@@ -14,7 +14,7 @@ public class FileProcessor implements Observer {
     @Override
     public void update(List<TownInterface> towns, List<RailwayInterface> railways) // barebones implementation make it better later
     {
-        System.out.println("Updating file with the latest towns and railways:");
+       /* System.out.println("Updating file with the latest towns and railways:");
         
         // Implement file writing logic here later
         System.out.println("Checking Towns statss: (FILE)");
@@ -30,6 +30,6 @@ public class FileProcessor implements Observer {
             // Write railway data to file
             System.out.println(railway.getRailInfo());
         }
-        System.out.println("\n\n");
+        System.out.println("\n\n");*/ // uncomment when finised debugging
     }
 }

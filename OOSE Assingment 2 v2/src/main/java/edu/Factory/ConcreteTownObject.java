@@ -45,7 +45,7 @@ public class ConcreteTownObject implements TownInterface
     @Override
     public void reduceStockpile(Integer reduction)
     {
-        this.stockpile = stockpile;
+        this.stockpile -= reduction;
     }
 
     @Override
