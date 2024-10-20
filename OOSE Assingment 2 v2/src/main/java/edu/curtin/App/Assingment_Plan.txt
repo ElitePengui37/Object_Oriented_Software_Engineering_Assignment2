@@ -65,9 +65,9 @@ use observer pattern next to send from lists to file/io and command line (UI)
 
         After all this is calculated display it to the UI (terminal) & write updated data to file sumoutput.dot in the way asked by assingment (override file each day)
 
-during each event loop check if railway is built using the state pattern
-    state pattern has railway under construction   -->    railway completed
-    (it takes 5 days (5 seconds) to build a railway and during that time it is unable to send goods)
+during each event loop check if railway is built using the state pattern                ///
+    state pattern has railway under construction   -->    railway completed             ///
+    (it takes 5 days (5 seconds) to build a railway and during that time it is unable to send goods)                ///
 
 
 a single ended track sends up to 100 goods per day (if it can in a single direction) and direction reverses each day

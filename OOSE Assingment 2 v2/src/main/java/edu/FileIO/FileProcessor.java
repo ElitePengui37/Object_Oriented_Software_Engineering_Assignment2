@@ -21,6 +21,7 @@ public class FileProcessor implements Observer {
         for (TownInterface town : towns) {
             // Write town data to file
             System.out.println(town.getName() + " - Population: " + town.getPopulation());
+            System.out.println("RESOURCES : " + town.getStockpile());
         }
         System.out.println("\n\n");
         

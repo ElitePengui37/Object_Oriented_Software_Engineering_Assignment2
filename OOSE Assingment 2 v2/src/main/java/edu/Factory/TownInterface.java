@@ -6,4 +6,8 @@ public interface TownInterface
 
     String getName(); // getter later used by observer pattern to get town name
     Integer getPopulation(); // getter for observer pattern
+
+
+    Integer getStockpile(); // returns resources in stockpile to observer objects
+    void setStockpile(); // called each day for all town in factory to produce new reources
 }

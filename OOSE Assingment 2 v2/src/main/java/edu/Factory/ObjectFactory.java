@@ -117,6 +117,12 @@ public class ObjectFactory
         {
             controller.startBuilding();  // Update build state
         }
+
+        // Produce resources for all towns
+        for(TownInterface town : towns)
+        {
+            town.setStockpile();
+        }
     }
 
     
