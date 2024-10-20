@@ -78,3 +78,13 @@ double ended tracks (railway-duplication) send up to 100 goods in both direction
 
 
 
+
+
+plan for goods transport
+
+get rail info for all rails
+when going through list first check railway state is built          ///
+next look at first word in list to find town name and if day is even and look at last word of list to find if it 2 way deduct maximum 100 resources from first and second town
+if last word is false only take resources away from first town
+
+if day is odd take resources from 2nd town

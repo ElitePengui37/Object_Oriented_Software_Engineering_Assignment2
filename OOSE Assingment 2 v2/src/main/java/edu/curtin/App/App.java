@@ -4,6 +4,7 @@ package edu.curtin.App;
 import main.java.edu.GUI.Graphics;
 import main.java.edu.FileIO.FileProcessor;
 import edu.curtin.oose2024s2.assignment2.TownsInput;
+import main.java.edu.State.RailwayController;
 import main.java.edu.Observer.*;
 import main.java.edu.Factory.*;
 import java.io.*;
@@ -16,25 +17,29 @@ import java.util.ArrayList;
  */
 public class App
 {
+    public static Integer day = 0;
+
     public static void main(String[] args)
     {
-        Integer day = 0;
         List<String> msgList = new ArrayList<String>(); // msgList holds inp messages and used for object factories
 
         TownsInput inp = new TownsInput();
         //TownsInput inp = new TownsInput(123);  // Seed for the random number generator
         // inp.setErrorProbability(0.0);
 
+        // object factory
+        ObjectFactory factory = new ObjectFactory();
+
+        // Retrieve the list of RailwayController from the factory for graphics object
+        List<RailwayController> railwayControllers = factory.getRailwayControllers();
+
         // create objects in from packages
-        Graphics GUI = new Graphics();
+        Graphics GUI = new Graphics(railwayControllers);
         FileProcessor FileIO = new FileProcessor();
 
         // call package objects to check if they been imported properly
         GUI.CreateObject();
         FileIO.CreateFileObject();
-
-        // object factory
-        ObjectFactory factory = new ObjectFactory();
 
 
         // observer pattern subject object

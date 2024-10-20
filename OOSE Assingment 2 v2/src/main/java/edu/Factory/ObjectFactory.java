@@ -137,4 +137,9 @@ public class ObjectFactory
     {
         return railways; // Return the current list of railways for observer pattern
     }
+
+    public List<RailwayController> getRailwayControllers()
+    {
+        return controllers;
+    }
 }
