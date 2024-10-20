@@ -57,10 +57,10 @@ add towns to town object list ///
 use observer pattern next to send from lists to file/io and command line (UI)
     Send population and track info to each and use method to calculate
         calculate:
-            p: population
-            rs: the number of single ended tracks that connect to that railway
-            rd: the number of double eneded tracks that connect to that railway
-            gs: goods in stockpile: (each person produces 1 good per day, each track can send 100 goods per day once sent they are consumed and no longer exist)
+            p: population           ///
+            rs: the number of single ended tracks that connect to that railway          ///
+            rd: the number of double eneded tracks that connect to that railway         ///
+            gs: goods in stockpile: (each person produces 1 good per day, each track can send 100 goods per day once sent they are consumed and no longer exist)        ///
             gt: goods transported 
 
         After all this is calculated display it to the UI (terminal) & write updated data to file sumoutput.dot in the way asked by assingment (override file each day)
