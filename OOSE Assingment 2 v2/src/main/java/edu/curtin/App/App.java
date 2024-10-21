@@ -25,7 +25,7 @@ public class App
 
         TownsInput inp = new TownsInput();
         //TownsInput inp = new TownsInput(123);  // Seed for the random number generator
-        // inp.setErrorProbability(0.0);
+        //inp.setErrorProbability(0.0);
 
         // object factory
         ObjectFactory factory = new ObjectFactory();
@@ -59,17 +59,19 @@ public class App
                 System.out.println("---");
                 System.out.println("DAY " + day +":\n"); // display day later move this into the GUI object when observer pattern has been implemented
                 String msg = inp.nextMessage();
-                while(msg != null)
+                
+                while(msg != null) // display all of todays messages and add theem to a message list
                 {
                     System.out.println(msg);
                     msgList.add(msg); // add all todays messages into msgList
                     msg = inp.nextMessage();
                 }
+                System.out.println("\n");
 
-                System.out.println("\n\n\nChecking msgList items");
+                //System.out.println("\n\n\nChecking msgList items");
                 for (String item : msgList)
                 {
-                    System.out.println(item); //LOG THIS LATER
+                    //System.out.println(item); //LOG THIS LATER
                 }
 
                 

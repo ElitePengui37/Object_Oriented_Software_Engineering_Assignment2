@@ -47,8 +47,8 @@ public class FileProcessor implements Observer
             {
                 String railCheck = controller.getRailway().getRailInfo(); // Get the railway info
                 String[] railStats = railCheck.split(" ");
-                String firstTownName = railStats[0];
-                String secondTownName = railStats[1];
+                String firstTown = railStats[0];
+                String secondTown = railStats[1];
                 boolean twoWay = Boolean.parseBoolean(railStats[2]);
                 boolean isBuilt = controller.isBuilt(); // Check if the railway is built
 
@@ -56,22 +56,22 @@ public class FileProcessor implements Observer
                 {
                     if (isBuilt) 
                     {
-                        writer.write("\t" + firstTownName + " -- " + secondTownName + " [color=\"black:black\"]\n"); // dual track complete
+                        writer.write("\t" + firstTown + " -- " + secondTown + " [color=\"black:black\"]\n"); // dual track complete
                     } 
                     else 
                     {
-                        writer.write("\t" + firstTownName + " -- " + secondTownName + " [style=\"dashed\",color=\"black:black\"]\n"); // dual track under construction
+                        writer.write("\t" + firstTown + " -- " + secondTown + " [style=\"dashed\",color=\"black:black\"]\n"); // dual track under construction
                     }
                 } 
                 else 
                 {
                     if (isBuilt) 
                     {
-                        writer.write("\t" + firstTownName + " -- " + secondTownName + "\n"); // single track complete
+                        writer.write("\t" + firstTown + " -- " + secondTown + "\n"); // single track complete
                     } 
                     else 
                     {
-                        writer.write("\t" + firstTownName + " -- " + secondTownName + " [style=\"dashed\"]\n"); // single track under construction
+                        writer.write("\t" + firstTown + " -- " + secondTown + " [style=\"dashed\"]\n"); // single track under construction
                     }
                 }
             }

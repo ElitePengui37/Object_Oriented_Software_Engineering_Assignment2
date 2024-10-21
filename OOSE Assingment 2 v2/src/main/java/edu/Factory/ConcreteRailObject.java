@@ -17,7 +17,7 @@ public class ConcreteRailObject implements RailwayInterface
     public void setRailwayDuplication()
     {
         this.twoWay = true;  // Directly set to true
-        System.out.println("Railway is now two-way.");
+        //System.out.println("Railway is now two-way."); LOG THIS
     }
 
 

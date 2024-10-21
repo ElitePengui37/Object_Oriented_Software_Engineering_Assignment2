@@ -31,32 +31,48 @@ public class ObjectFactory
             if(action.equals("town-founding") && parts.length == 3) // parts more then 2 prevents errors
             {
                 String townName = parts[1];
-                Integer townPopulation = Integer.parseInt(parts[2]);
 
-                TownInterface newTown = new ConcreteTownObject(townName, townPopulation);
-                towns.add(newTown);
-                System.out.println("New town founded!");
+                // exception handling to prevent non integer values getting passed into town population
+                try
+                {
+                    Integer townPopulation = Integer.parseInt(parts[2]);
+
+                    TownInterface newTown = new ConcreteTownObject(townName, townPopulation);
+                    towns.add(newTown);
+                    //System.out.println("New town founded!"); // LOG THIS
+                } catch (NumberFormatException e)
+                {
+                    // LOG HERE ABOUT INVALID number
+                }
+
 
             }
             else if(action.equals("town-population") && parts.length == 3) // prevent short bugged inputs from making it through
             {
                 String townName = parts[1];
-                Integer townPopulation = Integer.parseInt(parts[2]); // add exception handling for this part and ignore the value
-                boolean found = false;
-                
-                //System.out.println("DEBUG CHECKING TOWN POPULATION FOR TOWN " + townName + " POPULATION " + townPopulation); // change this to log.info later
-                for(TownInterface town : towns) // find town and update population
-                {
-                    if (town instanceof ConcreteTownObject && ((ConcreteTownObject)town).getName().equals(townName)) // update town population only if town is found (some town names may be error names)
-                    {
-                        town.setUpdatePopulation(townPopulation);
-                        found = true; // town has been found and updated
-                    }
-                }
 
-                if (!found)
+                try
                 {
-                    System.out.println("Unable to update population " + townName + " not found.");
+                    Integer townPopulation = Integer.parseInt(parts[2]); // add exception handling for this part and ignore the value
+                    boolean found = false;
+                    
+                    //System.out.println("DEBUG CHECKING TOWN POPULATION FOR TOWN " + townName + " POPULATION " + townPopulation); // change this to log.info later
+                    for(TownInterface town : towns) // find town and update population
+                    {
+                        if (town instanceof ConcreteTownObject && ((ConcreteTownObject)town).getName().equals(townName)) // update town population only if town is found (some town names may be error names)
+                        {
+                            town.setUpdatePopulation(townPopulation);
+                            found = true; // town has been found and updated
+                        }
+                    }
+
+                    if (!found)
+                    {
+                        System.out.println("Unable to update population " + townName + " not found.");
+                    }
+                } catch (NumberFormatException e)
+                {
+                    // LOG HERE ABOUT INVALID NUMBER
                 }
             }
             else if(action.equals("railway-construction") && parts.length == 3) // railway cases part 0 is railway-construction, part 1 and 2 are townnames

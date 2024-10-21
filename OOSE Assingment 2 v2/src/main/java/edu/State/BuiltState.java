@@ -3,9 +3,9 @@ package main.java.edu.State;
 public class BuiltState implements RailState
 {
     @Override
-    public void build(RailwayController controller)
+    public void build(RailwayController controller) // do nothing if already built
     {
-        System.out.println("Already built build callded");
+        // LOG HERE ALREADY BUILT
     }
 
 

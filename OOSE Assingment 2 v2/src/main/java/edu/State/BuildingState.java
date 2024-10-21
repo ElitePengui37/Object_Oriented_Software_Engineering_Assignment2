@@ -11,12 +11,12 @@ public class BuildingState implements RailState
         if(daysLeft > 0)
         {
             daysLeft--; // decrement days left every time build is called in the object factory
-            System.out.println("DEBUG   Railways being built days remaining: " + daysLeft);
+            //System.out.println("DEBUG   Railways being built days remaining: " + daysLeft);  LOG THIS
         }
         else if(daysLeft <= 0)
         {
             controller.setState(new BuiltState()); // if build is called transition state to built if days have expired
-            System.out.println("DEBUG      Railway state transition to BUILT");
+            //System.out.println("DEBUG      Railway state transition to BUILT");   LOG THIS
         }
     }
 
