@@ -1,16 +1,5 @@
 graph Towns {
-	Mizenness
-	Narrow_Chapcester
-	New_Applecot
-	Parhampton
-	Charlholm
+	Stafholme
+	Chopkirk
 
-	Mizenness -- Narrow_Chapcester [color="black:black"]
-	New_Applecot -- Narrow_Chapcester [color="black:black"]
-	New_Applecot -- Mizenness
-	New_Applecot -- Parhampton
-	Mizenness -- Charlholm
-	Parhampton -- Charlholm [color="black:black"]
-	Charlholm -- Narrow_Chapcester [style="dashed"]
-	Narrow_Chapcester -- Parhampton [style="dashed"]
 }

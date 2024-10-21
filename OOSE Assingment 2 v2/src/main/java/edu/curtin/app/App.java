@@ -23,7 +23,7 @@ public class App
 
     public static void main(String[] args)
     {
-        List<String> msgList = new ArrayList<String>(); // msgList holds inp messages and used for object factories
+        List<String> msgList = new ArrayList<>(); // msgList holds inp messages and used for object factories
 
         TownsInput inp = new TownsInput();
         //TownsInput inp = new TownsInput(123);  // Seed for the random number generator
@@ -34,18 +34,18 @@ public class App
         List<RailwayController> railwayControllers = factory.getRailwayControllers(); // Retrieve railway controller list from the factory for graphics object (allows graphics object see state of railway)
 
         // create objects in from packages
-        Graphics GUI = new Graphics(railwayControllers);
-        FileProcessor FileIO = new FileProcessor(railwayControllers);
+        Graphics gui = new Graphics(railwayControllers);
+        FileProcessor fileIO = new FileProcessor(railwayControllers);
 
         // call package objects to check if they been imported properly
-        GUI.createObject();
-        FileIO.createFileObject();
+        gui.createObject();
+        fileIO.createFileObject();
 
         Subject subject = new Subject(); // observer pattern subject object
 
         // add GUI and FileIO objects to the subject
-        subject.addObserver(GUI);
-        subject.addObserver(FileIO);
+        subject.addObserver(gui);
+        subject.addObserver(fileIO);
 
 
         try
