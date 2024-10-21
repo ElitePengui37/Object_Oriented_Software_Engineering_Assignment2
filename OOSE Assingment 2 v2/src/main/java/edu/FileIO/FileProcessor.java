@@ -1,9 +1,9 @@
-package main.java.edu.FileIO;
+package main.java.edu.fileio;
 
-import main.java.edu.Observer.Observer;
-import main.java.edu.Factory.TownInterface;
-import main.java.edu.Factory.RailwayInterface;
-import main.java.edu.State.RailwayController;
+import main.java.edu.observer.Observer;
+import main.java.edu.factory.TownInterface;
+import main.java.edu.factory.RailwayInterface;
+import main.java.edu.state.RailwayController;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;

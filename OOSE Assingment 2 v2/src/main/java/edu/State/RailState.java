@@ -1,4 +1,4 @@
-package main.java.edu.State;
+package main.java.edu.state;
 
 public interface RailState
 {

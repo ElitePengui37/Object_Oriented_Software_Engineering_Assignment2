@@ -1,6 +1,6 @@
-package main.java.edu.State;
+package main.java.edu.state;
 
-import main.java.edu.Factory.RailwayInterface;
+import main.java.edu.factory.RailwayInterface;
 
 public class RailwayController
 {

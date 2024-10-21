@@ -1,12 +1,12 @@
 //package edu.curtin.oose2024s2.assignment2;
 package edu.curtin.App;
 
-import main.java.edu.GUI.Graphics;
-import main.java.edu.FileIO.FileProcessor;
+import main.java.edu.gui.Graphics;
+import main.java.edu.fileio.FileProcessor;
 import edu.curtin.oose2024s2.assignment2.TownsInput;
-import main.java.edu.State.RailwayController;
-import main.java.edu.Observer.*;
-import main.java.edu.Factory.*;
+import main.java.edu.state.RailwayController;
+import main.java.edu.observer.*;
+import main.java.edu.factory.*;
 import java.io.*;
 import java.util.List;
 import java.util.ArrayList;

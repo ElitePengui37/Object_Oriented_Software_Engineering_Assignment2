@@ -1,4 +1,4 @@
-package main.java.edu.Factory;
+package main.java.edu.factory;
 
 public interface TownInterface
 {

@@ -1,0 +1,21 @@
+graph Towns {
+	Peyminster
+	Low_Tarholme
+	Mudport
+	Stoney_Dewholt
+	Sodhampton
+	Nagbrough
+	Drafttham
+
+	Stoney_Dewholt -- Peyminster
+	Nagbrough -- Mudport
+	Low_Tarholme -- Peyminster
+	Sodhampton -- Low_Tarholme
+	Mudport -- Sodhampton
+	Low_Tarholme -- Mudport
+	Sodhampton -- Peyminster [color="black:black"]
+	Sodhampton -- Nagbrough [color="black:black"]
+	Drafttham -- Low_Tarholme [color="black:black"]
+	Stoney_Dewholt -- Sodhampton [style="dashed"]
+	Stoney_Dewholt -- Nagbrough [style="dashed",color="black:black"]
+}

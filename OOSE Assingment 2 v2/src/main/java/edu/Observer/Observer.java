@@ -1,9 +1,9 @@
-package main.java.edu.Observer;
+package main.java.edu.observer;
 
 import java.util.List;
 import java.util.ArrayList;
-import main.java.edu.Factory.TownInterface;
-import main.java.edu.Factory.RailwayInterface;
+import main.java.edu.factory.TownInterface;
+import main.java.edu.factory.RailwayInterface;
 
 public interface Observer
 {

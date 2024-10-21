@@ -1,9 +1,9 @@
-package main.java.edu.Observer;
+package main.java.edu.observer;
 
 import java.util.ArrayList;
 import java.util.List;
-import main.java.edu.Factory.TownInterface;
-import main.java.edu.Factory.RailwayInterface;
+import main.java.edu.factory.TownInterface;
+import main.java.edu.factory.RailwayInterface;
 
 public class Subject // subject class for observer pattern notifies all observers
 {

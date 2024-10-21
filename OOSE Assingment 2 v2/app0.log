@@ -1,538 +1,3339 @@
-Oct 21, 2024 2:35:21 PM main.java.edu.GUI.Graphics CreateObject
+Oct 21, 2024 3:02:38 PM main.java.edu.gui.Graphics CreateObject
 INFO: Graphics object has been created
-Oct 21, 2024 2:35:21 PM main.java.edu.FileIO.FileProcessor CreateFileObject
+Oct 21, 2024 3:02:38 PM main.java.edu.fileio.FileProcessor CreateFileObject
 INFO: File object created
-Oct 21, 2024 2:35:21 PM edu.curtin.App.App main
+Oct 21, 2024 3:02:38 PM edu.curtin.App.App main
 INFO: msgList items:
 
 
 
-Oct 21, 2024 2:35:22 PM edu.curtin.App.App main
+Oct 21, 2024 3:02:39 PM edu.curtin.App.App main
 INFO: msgList items:
 
 
 
-Oct 21, 2024 2:35:22 PM edu.curtin.App.App main
-INFO: town-founding Furrowley 679
-Oct 21, 2024 2:35:22 PM edu.curtin.App.App main
-INFO: town-founding Mawsstoke 765
-Oct 21, 2024 2:35:22 PM main.java.edu.Factory.ObjectFactory processMessages
+Oct 21, 2024 3:02:39 PM edu.curtin.App.App main
+INFO: town-founding Peyminster 336
+Oct 21, 2024 3:02:39 PM edu.curtin.App.App main
+INFO: town-founding Low_Tarholme 617
+Oct 21, 2024 3:02:39 PM main.java.edu.factory.ObjectFactory processMessages
 INFO: 
 New town founded!
 
-Oct 21, 2024 2:35:22 PM main.java.edu.Factory.ObjectFactory processMessages
+Oct 21, 2024 3:02:39 PM main.java.edu.factory.ObjectFactory processMessages
 INFO: 
 New town founded!
 
-Oct 21, 2024 2:35:23 PM edu.curtin.App.App main
+Oct 21, 2024 3:02:40 PM edu.curtin.App.App main
 INFO: msgList items:
 
 
 
-Oct 21, 2024 2:35:23 PM edu.curtin.App.App main
-INFO: railway-construction ndAbePp0I Furrowley Furrowley XD>QdN[Z
-Oct 21, 2024 2:35:24 PM edu.curtin.App.App main
-INFO: msgList items:
-
-
-
-Oct 21, 2024 2:35:25 PM edu.curtin.App.App main
-INFO: msgList items:
-
-
-
-Oct 21, 2024 2:35:26 PM edu.curtin.App.App main
-INFO: msgList items:
-
-
-
-Oct 21, 2024 2:35:26 PM edu.curtin.App.App main
-INFO: town-population Furrowley 780
-Oct 21, 2024 2:35:26 PM main.java.edu.Factory.ConcreteTownObject setUpdatePopulation
+Oct 21, 2024 3:02:40 PM edu.curtin.App.App main
+INFO: town-population Low_Tarholme 601
+Oct 21, 2024 3:02:40 PM main.java.edu.factory.ConcreteTownObject setUpdatePopulation
 INFO: 
-Population of town Furrowley set to: 780
+Population of town Low_Tarholme set to: 601
 
-Oct 21, 2024 2:35:27 PM edu.curtin.App.App main
+Oct 21, 2024 3:02:41 PM edu.curtin.App.App main
 INFO: msgList items:
 
 
 
-Oct 21, 2024 2:35:28 PM edu.curtin.App.App main
+Oct 21, 2024 3:02:42 PM edu.curtin.App.App main
 INFO: msgList items:
 
 
 
-Oct 21, 2024 2:35:29 PM edu.curtin.App.App main
+Oct 21, 2024 3:02:43 PM edu.curtin.App.App main
 INFO: msgList items:
 
 
 
-Oct 21, 2024 2:35:29 PM edu.curtin.App.App main
-INFO: town-founding Lower_Puddleborough 578
-Oct 21, 2024 2:35:29 PM main.java.edu.Factory.ObjectFactory processMessages
+Oct 21, 2024 3:02:43 PM edu.curtin.App.App main
+INFO: town-founding Mudport 820
+Oct 21, 2024 3:02:43 PM edu.curtin.App.App main
+INFO: town-founding Stoney_Dewholt 739
+Oct 21, 2024 3:02:43 PM main.java.edu.factory.ObjectFactory processMessages
 INFO: 
 New town founded!
 
-Oct 21, 2024 2:35:30 PM edu.curtin.App.App main
-INFO: msgList items:
-
-
-
-Oct 21, 2024 2:35:31 PM edu.curtin.App.App main
-INFO: msgList items:
-
-
-
-Oct 21, 2024 2:35:31 PM edu.curtin.App.App main
-INFO: town-population Lower_Puddleborough 691
-Oct 21, 2024 2:35:31 PM main.java.edu.Factory.ConcreteTownObject setUpdatePopulation
+Oct 21, 2024 3:02:43 PM main.java.edu.factory.ObjectFactory processMessages
 INFO: 
-Population of town Lower_Puddleborough set to: 691
+New town founded!
 
-Oct 21, 2024 2:35:32 PM edu.curtin.App.App main
+Oct 21, 2024 3:02:44 PM edu.curtin.App.App main
 INFO: msgList items:
 
 
 
-Oct 21, 2024 2:35:32 PM edu.curtin.App.App main
-INFO: railway-construction Lower_Puddleborough Mawsstoke
-Oct 21, 2024 2:35:32 PM edu.curtin.App.App main
-INFO: Furrowley Lower_Puddleborough
-Oct 21, 2024 2:35:32 PM main.java.edu.State.BuildingState build
+Oct 21, 2024 3:02:44 PM edu.curtin.App.App main
+INFO: town-founding Sodhampton 245
+Oct 21, 2024 3:02:44 PM main.java.edu.factory.ObjectFactory processMessages
+INFO: 
+New town founded!
+
+Oct 21, 2024 3:02:45 PM edu.curtin.App.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 3:02:46 PM edu.curtin.App.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 3:02:46 PM edu.curtin.App.App main
+INFO: town-population Mudport 904
+Oct 21, 2024 3:02:46 PM edu.curtin.App.App main
+INFO: ahJCS Sodhampton -944
+Oct 21, 2024 3:02:46 PM edu.curtin.App.App main
+INFO: XGju Peyminster Sodhampton VI+S#PogLP;
+Oct 21, 2024 3:02:46 PM main.java.edu.factory.ConcreteTownObject setUpdatePopulation
+INFO: 
+Population of town Mudport set to: 904
+
+Oct 21, 2024 3:02:47 PM edu.curtin.App.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 3:02:47 PM edu.curtin.App.App main
+INFO: town-population Stoney_Dewholt 847
+Oct 21, 2024 3:02:47 PM edu.curtin.App.App main
+INFO: railway-construction Stoney_Dewholt Peyminster
+Oct 21, 2024 3:02:47 PM main.java.edu.factory.ConcreteTownObject setUpdatePopulation
+INFO: 
+Population of town Stoney_Dewholt set to: 847
+
+Oct 21, 2024 3:02:47 PM main.java.edu.state.BuildingState build
 INFO: 
 
 
 DEBUG   Railways being built days remaining: 4
-Oct 21, 2024 2:35:33 PM edu.curtin.App.App main
+Oct 21, 2024 3:02:48 PM edu.curtin.App.App main
 INFO: msgList items:
 
 
 
-Oct 21, 2024 2:35:33 PM edu.curtin.App.App main
-INFO: town-population Mawsstoke 756
-Oct 21, 2024 2:35:33 PM edu.curtin.App.App main
-INFO: town-population Lower_Puddleborough 754
-Oct 21, 2024 2:35:33 PM main.java.edu.Factory.ConcreteTownObject setUpdatePopulation
+Oct 21, 2024 3:02:48 PM edu.curtin.App.App main
+INFO: town-population Mudport 1064
+Oct 21, 2024 3:02:48 PM main.java.edu.factory.ConcreteTownObject setUpdatePopulation
 INFO: 
-Population of town Mawsstoke set to: 756
+Population of town Mudport set to: 1064
 
-Oct 21, 2024 2:35:33 PM main.java.edu.Factory.ConcreteTownObject setUpdatePopulation
-INFO: 
-Population of town Lower_Puddleborough set to: 754
-
-Oct 21, 2024 2:35:33 PM main.java.edu.State.BuildingState build
+Oct 21, 2024 3:02:48 PM main.java.edu.state.BuildingState build
 INFO: 
 
 
 DEBUG   Railways being built days remaining: 3
-Oct 21, 2024 2:35:34 PM edu.curtin.App.App main
+Oct 21, 2024 3:02:49 PM edu.curtin.App.App main
 INFO: msgList items:
 
 
 
-Oct 21, 2024 2:35:34 PM main.java.edu.State.BuildingState build
+Oct 21, 2024 3:02:49 PM edu.curtin.App.App main
+INFO: town-population Stoney_Dewholt 767
+Oct 21, 2024 3:02:49 PM edu.curtin.App.App main
+INFO: town-population Sodhampton 293
+Oct 21, 2024 3:02:49 PM edu.curtin.App.App main
+INFO: town-founding Nagbrough 956
+Oct 21, 2024 3:02:49 PM main.java.edu.factory.ConcreteTownObject setUpdatePopulation
+INFO: 
+Population of town Stoney_Dewholt set to: 767
+
+Oct 21, 2024 3:02:49 PM main.java.edu.factory.ConcreteTownObject setUpdatePopulation
+INFO: 
+Population of town Sodhampton set to: 293
+
+Oct 21, 2024 3:02:49 PM main.java.edu.factory.ObjectFactory processMessages
+INFO: 
+New town founded!
+
+Oct 21, 2024 3:02:49 PM main.java.edu.state.BuildingState build
 INFO: 
 
 
 DEBUG   Railways being built days remaining: 2
-Oct 21, 2024 2:35:35 PM edu.curtin.App.App main
+Oct 21, 2024 3:02:50 PM edu.curtin.App.App main
 INFO: msgList items:
 
 
 
-Oct 21, 2024 2:35:35 PM edu.curtin.App.App main
-INFO: railway-duplication Lower_Puddleborough Mawsstoke
-Oct 21, 2024 2:35:35 PM main.java.edu.Factory.ConcreteRailObject setRailwayDuplication
-INFO: Railway is now two-way.
-
-Oct 21, 2024 2:35:35 PM main.java.edu.State.BuildingState build
-INFO: 
-
-
-DEBUG   Railways being built days remaining: 4
-Oct 21, 2024 2:35:36 PM edu.curtin.App.App main
-INFO: msgList items:
-
-
-
-Oct 21, 2024 2:35:36 PM edu.curtin.App.App main
-INFO: town-founding Balhurst 811
-Oct 21, 2024 2:35:36 PM edu.curtin.App.App main
-INFO: town-founding Hatstable 555
-Oct 21, 2024 2:35:36 PM edu.curtin.App.App main
-INFO: town-population Furrowley 912
-Oct 21, 2024 2:35:36 PM main.java.edu.Factory.ObjectFactory processMessages
-INFO: 
-New town founded!
-
-Oct 21, 2024 2:35:36 PM main.java.edu.Factory.ObjectFactory processMessages
-INFO: 
-New town founded!
-
-Oct 21, 2024 2:35:36 PM main.java.edu.Factory.ConcreteTownObject setUpdatePopulation
-INFO: 
-Population of town Furrowley set to: 912
-
-Oct 21, 2024 2:35:36 PM main.java.edu.State.BuildingState build
-INFO: 
-
-
-DEBUG   Railways being built days remaining: 3
-Oct 21, 2024 2:35:37 PM edu.curtin.App.App main
-INFO: msgList items:
-
-
-
-Oct 21, 2024 2:35:37 PM edu.curtin.App.App main
-INFO: town-population Lower_Puddleborough 860
-Oct 21, 2024 2:35:37 PM edu.curtin.App.App main
-INFO: town-population Hatstable 551
-Oct 21, 2024 2:35:37 PM main.java.edu.Factory.ConcreteTownObject setUpdatePopulation
-INFO: 
-Population of town Lower_Puddleborough set to: 860
-
-Oct 21, 2024 2:35:37 PM main.java.edu.Factory.ConcreteTownObject setUpdatePopulation
-INFO: 
-Population of town Hatstable set to: 551
-
-Oct 21, 2024 2:35:37 PM main.java.edu.State.BuildingState build
-INFO: 
-
-
-DEBUG   Railways being built days remaining: 2
-Oct 21, 2024 2:35:38 PM edu.curtin.App.App main
-INFO: msgList items:
-
-
-
-Oct 21, 2024 2:35:38 PM main.java.edu.State.BuildingState build
+Oct 21, 2024 3:02:50 PM main.java.edu.state.BuildingState build
 INFO: 
 
 
 DEBUG   Railways being built days remaining: 1
-Oct 21, 2024 2:35:39 PM edu.curtin.App.App main
+Oct 21, 2024 3:02:51 PM edu.curtin.App.App main
 INFO: msgList items:
 
 
 
-Oct 21, 2024 2:35:39 PM edu.curtin.App.App main
-INFO: town-population Mawsstoke 783
-Oct 21, 2024 2:35:39 PM edu.curtin.App.App main
-INFO: town-population Lower_Puddleborough 800
-Oct 21, 2024 2:35:39 PM main.java.edu.Factory.ConcreteTownObject setUpdatePopulation
-INFO: 
-Population of town Mawsstoke set to: 783
-
-Oct 21, 2024 2:35:39 PM main.java.edu.Factory.ConcreteTownObject setUpdatePopulation
-INFO: 
-Population of town Lower_Puddleborough set to: 800
-
-Oct 21, 2024 2:35:39 PM main.java.edu.State.BuildingState build
+Oct 21, 2024 3:02:51 PM main.java.edu.state.BuildingState build
 INFO: 
 
 
 DEBUG   Railways being built days remaining: 0
-Oct 21, 2024 2:35:40 PM edu.curtin.App.App main
+Oct 21, 2024 3:02:52 PM edu.curtin.App.App main
 INFO: msgList items:
 
 
 
-Oct 21, 2024 2:35:40 PM main.java.edu.State.BuildingState build
+Oct 21, 2024 3:02:52 PM edu.curtin.App.App main
+INFO: railway-construction Nagbrough Mudport
+Oct 21, 2024 3:02:52 PM edu.curtin.App.App main
+INFO: railway-construction Low_Tarholme Peyminster
+Oct 21, 2024 3:02:52 PM edu.curtin.App.App main
+INFO: railway-construction Sodhampton Low_Tarholme
+Oct 21, 2024 3:02:52 PM edu.curtin.App.App main
+INFO: railway-construction Mudport Sodhampton
+Oct 21, 2024 3:02:52 PM edu.curtin.App.App main
+INFO: town-population Sodhampton 319
+Oct 21, 2024 3:02:52 PM edu.curtin.App.App main
+INFO: town-population Stoney_Dewholt 907
+Oct 21, 2024 3:02:52 PM edu.curtin.App.App main
+INFO: railway-construction Low_Tarholme Mudport
+Oct 21, 2024 3:02:52 PM main.java.edu.factory.ConcreteTownObject setUpdatePopulation
+INFO: 
+Population of town Sodhampton set to: 319
+
+Oct 21, 2024 3:02:52 PM main.java.edu.factory.ConcreteTownObject setUpdatePopulation
+INFO: 
+Population of town Stoney_Dewholt set to: 907
+
+Oct 21, 2024 3:02:52 PM main.java.edu.state.BuildingState build
 INFO: 
 
 
 DEBUG      Railway state transition to BUILT
-Oct 21, 2024 2:35:40 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: 
-
-
-Before transporting from Lower_Puddleborough: 8874 goods.
-Oct 21, 2024 2:35:40 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: Before transporting from Mawsstoke: 14517 goods.
-Oct 21, 2024 2:35:40 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: After transporting from Lower_Puddleborough: 8774 goods.Goods transported is 100
-Oct 21, 2024 2:35:40 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: After transporting from Mawsstoke: 14417 goods.Goods transported is 100
-Oct 21, 2024 2:35:41 PM edu.curtin.App.App main
-INFO: msgList items:
-
-
-
-Oct 21, 2024 2:35:41 PM edu.curtin.App.App main
-INFO: town-population Furrowley 867
-Oct 21, 2024 2:35:41 PM main.java.edu.Factory.ConcreteTownObject setUpdatePopulation
-INFO: 
-Population of town Furrowley set to: 867
-
-Oct 21, 2024 2:35:41 PM main.java.edu.State.BuiltState build
-INFO: 
-
-
-ALREADY BUILT
-Oct 21, 2024 2:35:41 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: 
-
-
-Before transporting from Lower_Puddleborough: 9574 goods.
-Oct 21, 2024 2:35:41 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: Before transporting from Mawsstoke: 15200 goods.
-Oct 21, 2024 2:35:41 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: After transporting from Lower_Puddleborough: 9474 goods.Goods transported is 100
-Oct 21, 2024 2:35:41 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: After transporting from Mawsstoke: 15100 goods.Goods transported is 100
-Oct 21, 2024 2:35:42 PM edu.curtin.App.App main
-INFO: msgList items:
-
-
-
-Oct 21, 2024 2:35:42 PM main.java.edu.State.BuiltState build
-INFO: 
-
-
-ALREADY BUILT
-Oct 21, 2024 2:35:42 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: 
-
-
-Before transporting from Lower_Puddleborough: 10274 goods.
-Oct 21, 2024 2:35:42 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: Before transporting from Mawsstoke: 15883 goods.
-Oct 21, 2024 2:35:42 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: After transporting from Lower_Puddleborough: 10174 goods.Goods transported is 100
-Oct 21, 2024 2:35:42 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: After transporting from Mawsstoke: 15783 goods.Goods transported is 100
-Oct 21, 2024 2:35:43 PM edu.curtin.App.App main
-INFO: msgList items:
-
-
-
-Oct 21, 2024 2:35:43 PM edu.curtin.App.App main
-INFO: town-population Mawsstoke 766
-Oct 21, 2024 2:35:43 PM edu.curtin.App.App main
-INFO: town-founding Stanton_Kilfield 363
-Oct 21, 2024 2:35:43 PM main.java.edu.Factory.ConcreteTownObject setUpdatePopulation
-INFO: 
-Population of town Mawsstoke set to: 766
-
-Oct 21, 2024 2:35:43 PM main.java.edu.Factory.ObjectFactory processMessages
-INFO: 
-New town founded!
-
-Oct 21, 2024 2:35:43 PM main.java.edu.State.BuiltState build
-INFO: 
-
-
-ALREADY BUILT
-Oct 21, 2024 2:35:43 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: 
-
-
-Before transporting from Lower_Puddleborough: 10974 goods.
-Oct 21, 2024 2:35:43 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: Before transporting from Mawsstoke: 16549 goods.
-Oct 21, 2024 2:35:43 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: After transporting from Lower_Puddleborough: 10874 goods.Goods transported is 100
-Oct 21, 2024 2:35:43 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: After transporting from Mawsstoke: 16449 goods.Goods transported is 100
-Oct 21, 2024 2:35:44 PM edu.curtin.App.App main
-INFO: msgList items:
-
-
-
-Oct 21, 2024 2:35:45 PM main.java.edu.State.BuiltState build
-INFO: 
-
-
-ALREADY BUILT
-Oct 21, 2024 2:35:45 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: 
-
-
-Before transporting from Lower_Puddleborough: 11674 goods.
-Oct 21, 2024 2:35:45 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: Before transporting from Mawsstoke: 17215 goods.
-Oct 21, 2024 2:35:45 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: After transporting from Lower_Puddleborough: 11574 goods.Goods transported is 100
-Oct 21, 2024 2:35:45 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: After transporting from Mawsstoke: 17115 goods.Goods transported is 100
-Oct 21, 2024 2:35:46 PM edu.curtin.App.App main
-INFO: msgList items:
-
-
-
-Oct 21, 2024 2:35:46 PM main.java.edu.State.BuiltState build
-INFO: 
-
-
-ALREADY BUILT
-Oct 21, 2024 2:35:46 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: 
-
-
-Before transporting from Lower_Puddleborough: 12374 goods.
-Oct 21, 2024 2:35:46 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: Before transporting from Mawsstoke: 17881 goods.
-Oct 21, 2024 2:35:46 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: After transporting from Lower_Puddleborough: 12274 goods.Goods transported is 100
-Oct 21, 2024 2:35:46 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: After transporting from Mawsstoke: 17781 goods.Goods transported is 100
-Oct 21, 2024 2:35:47 PM edu.curtin.App.App main
-INFO: msgList items:
-
-
-
-Oct 21, 2024 2:35:47 PM main.java.edu.State.BuiltState build
-INFO: 
-
-
-ALREADY BUILT
-Oct 21, 2024 2:35:47 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: 
-
-
-Before transporting from Lower_Puddleborough: 13074 goods.
-Oct 21, 2024 2:35:47 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: Before transporting from Mawsstoke: 18547 goods.
-Oct 21, 2024 2:35:47 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: After transporting from Lower_Puddleborough: 12974 goods.Goods transported is 100
-Oct 21, 2024 2:35:47 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: After transporting from Mawsstoke: 18447 goods.Goods transported is 100
-Oct 21, 2024 2:35:48 PM edu.curtin.App.App main
-INFO: msgList items:
-
-
-
-Oct 21, 2024 2:35:48 PM main.java.edu.State.BuiltState build
-INFO: 
-
-
-ALREADY BUILT
-Oct 21, 2024 2:35:48 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: 
-
-
-Before transporting from Lower_Puddleborough: 13774 goods.
-Oct 21, 2024 2:35:48 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: Before transporting from Mawsstoke: 19213 goods.
-Oct 21, 2024 2:35:48 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: After transporting from Lower_Puddleborough: 13674 goods.Goods transported is 100
-Oct 21, 2024 2:35:48 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: After transporting from Mawsstoke: 19113 goods.Goods transported is 100
-Oct 21, 2024 2:35:49 PM edu.curtin.App.App main
-INFO: msgList items:
-
-
-
-Oct 21, 2024 2:35:49 PM edu.curtin.App.App main
-INFO: town-population Furrowley 948
-Oct 21, 2024 2:35:49 PM edu.curtin.App.App main
-INFO: railway-construction Balhurst Lower_Puddleborough
-Oct 21, 2024 2:35:49 PM main.java.edu.Factory.ConcreteTownObject setUpdatePopulation
-INFO: 
-Population of town Furrowley set to: 948
-
-Oct 21, 2024 2:35:49 PM main.java.edu.State.BuiltState build
-INFO: 
-
-
-ALREADY BUILT
-Oct 21, 2024 2:35:49 PM main.java.edu.State.BuildingState build
+Oct 21, 2024 3:02:52 PM main.java.edu.state.BuildingState build
 INFO: 
 
 
 DEBUG   Railways being built days remaining: 4
-Oct 21, 2024 2:35:49 PM main.java.edu.GUI.Graphics processGoodsTransport
+Oct 21, 2024 3:02:52 PM main.java.edu.state.BuildingState build
 INFO: 
 
 
-Before transporting from Lower_Puddleborough: 14474 goods.
-Oct 21, 2024 2:35:49 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: Before transporting from Mawsstoke: 19879 goods.
-Oct 21, 2024 2:35:49 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: After transporting from Lower_Puddleborough: 14374 goods.Goods transported is 100
-Oct 21, 2024 2:35:49 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: After transporting from Mawsstoke: 19779 goods.Goods transported is 100
-Oct 21, 2024 2:35:50 PM edu.curtin.App.App main
+DEBUG   Railways being built days remaining: 4
+Oct 21, 2024 3:02:52 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 4
+Oct 21, 2024 3:02:52 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 4
+Oct 21, 2024 3:02:52 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 4
+Oct 21, 2024 3:02:52 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Peyminster: 4704 goods.
+Oct 21, 2024 3:02:52 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 4604 goods.Goods transported is 100
+Oct 21, 2024 3:02:53 PM edu.curtin.App.App main
 INFO: msgList items:
 
 
 
-Oct 21, 2024 2:35:50 PM edu.curtin.App.App main
-INFO: town-population Stanton_Kilfield 378
-Oct 21, 2024 2:35:50 PM main.java.edu.Factory.ConcreteTownObject setUpdatePopulation
-INFO: 
-Population of town Stanton_Kilfield set to: 378
-
-Oct 21, 2024 2:35:50 PM main.java.edu.State.BuiltState build
+Oct 21, 2024 3:02:53 PM edu.curtin.App.App main
+INFO: railway-construction Sodhampton Peyminster
+Oct 21, 2024 3:02:53 PM main.java.edu.state.BuiltState build
 INFO: 
 
 
 ALREADY BUILT
-Oct 21, 2024 2:35:50 PM main.java.edu.State.BuildingState build
+Oct 21, 2024 3:02:53 PM main.java.edu.state.BuildingState build
 INFO: 
 
 
 DEBUG   Railways being built days remaining: 3
-Oct 21, 2024 2:35:50 PM main.java.edu.GUI.Graphics processGoodsTransport
+Oct 21, 2024 3:02:53 PM main.java.edu.state.BuildingState build
 INFO: 
 
 
-Before transporting from Lower_Puddleborough: 15174 goods.
-Oct 21, 2024 2:35:50 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: Before transporting from Mawsstoke: 20545 goods.
-Oct 21, 2024 2:35:50 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: After transporting from Lower_Puddleborough: 15074 goods.Goods transported is 100
-Oct 21, 2024 2:35:50 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: After transporting from Mawsstoke: 20445 goods.Goods transported is 100
-Oct 21, 2024 2:35:51 PM edu.curtin.App.App main
+DEBUG   Railways being built days remaining: 3
+Oct 21, 2024 3:02:53 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 3
+Oct 21, 2024 3:02:53 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 3
+Oct 21, 2024 3:02:53 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 3
+Oct 21, 2024 3:02:53 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 4
+Oct 21, 2024 3:02:53 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Stoney_Dewholt: 8765 goods.
+Oct 21, 2024 3:02:53 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Stoney_Dewholt: 8665 goods.Goods transported is 100
+Oct 21, 2024 3:02:54 PM edu.curtin.App.App main
 INFO: msgList items:
 
 
 
-Oct 21, 2024 2:35:51 PM main.java.edu.State.BuiltState build
+Oct 21, 2024 3:02:54 PM main.java.edu.state.BuiltState build
 INFO: 
 
 
 ALREADY BUILT
-Oct 21, 2024 2:35:51 PM main.java.edu.State.BuildingState build
+Oct 21, 2024 3:02:54 PM main.java.edu.state.BuildingState build
 INFO: 
 
 
 DEBUG   Railways being built days remaining: 2
-Oct 21, 2024 2:35:51 PM main.java.edu.GUI.Graphics processGoodsTransport
+Oct 21, 2024 3:02:54 PM main.java.edu.state.BuildingState build
 INFO: 
 
 
-Before transporting from Lower_Puddleborough: 15874 goods.
-Oct 21, 2024 2:35:51 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: Before transporting from Mawsstoke: 21211 goods.
-Oct 21, 2024 2:35:51 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: After transporting from Lower_Puddleborough: 15774 goods.Goods transported is 100
-Oct 21, 2024 2:35:51 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: After transporting from Mawsstoke: 21111 goods.Goods transported is 100
-Oct 21, 2024 2:35:52 PM edu.curtin.App.App main
+DEBUG   Railways being built days remaining: 2
+Oct 21, 2024 3:02:54 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 2
+Oct 21, 2024 3:02:54 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 2
+Oct 21, 2024 3:02:54 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 2
+Oct 21, 2024 3:02:54 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 3
+Oct 21, 2024 3:02:54 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Peyminster: 5276 goods.
+Oct 21, 2024 3:02:54 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 5176 goods.Goods transported is 100
+Oct 21, 2024 3:02:55 PM edu.curtin.App.App main
 INFO: msgList items:
 
 
 
-Oct 21, 2024 2:35:52 PM main.java.edu.State.BuiltState build
+Oct 21, 2024 3:02:55 PM edu.curtin.App.App main
+INFO: town-population Low_Tarholme 634
+Oct 21, 2024 3:02:55 PM main.java.edu.factory.ConcreteTownObject setUpdatePopulation
+INFO: 
+Population of town Low_Tarholme set to: 634
+
+Oct 21, 2024 3:02:55 PM main.java.edu.state.BuiltState build
 INFO: 
 
 
 ALREADY BUILT
-Oct 21, 2024 2:35:52 PM main.java.edu.State.BuildingState build
+Oct 21, 2024 3:02:55 PM main.java.edu.state.BuildingState build
 INFO: 
 
 
 DEBUG   Railways being built days remaining: 1
-Oct 21, 2024 2:35:52 PM main.java.edu.GUI.Graphics processGoodsTransport
+Oct 21, 2024 3:02:55 PM main.java.edu.state.BuildingState build
 INFO: 
 
 
-Before transporting from Lower_Puddleborough: 16574 goods.
-Oct 21, 2024 2:35:52 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: Before transporting from Mawsstoke: 21877 goods.
-Oct 21, 2024 2:35:52 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: After transporting from Lower_Puddleborough: 16474 goods.Goods transported is 100
-Oct 21, 2024 2:35:52 PM main.java.edu.GUI.Graphics processGoodsTransport
-INFO: After transporting from Mawsstoke: 21777 goods.Goods transported is 100
+DEBUG   Railways being built days remaining: 1
+Oct 21, 2024 3:02:55 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 1
+Oct 21, 2024 3:02:55 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 1
+Oct 21, 2024 3:02:55 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 1
+Oct 21, 2024 3:02:55 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 2
+Oct 21, 2024 3:02:55 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Stoney_Dewholt: 10479 goods.
+Oct 21, 2024 3:02:55 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Stoney_Dewholt: 10379 goods.Goods transported is 100
+Oct 21, 2024 3:02:56 PM edu.curtin.App.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 3:02:56 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:02:56 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 0
+Oct 21, 2024 3:02:56 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 0
+Oct 21, 2024 3:02:56 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 0
+Oct 21, 2024 3:02:56 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 0
+Oct 21, 2024 3:02:56 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 0
+Oct 21, 2024 3:02:56 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 1
+Oct 21, 2024 3:02:56 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Peyminster: 5848 goods.
+Oct 21, 2024 3:02:56 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 5748 goods.Goods transported is 100
+Oct 21, 2024 3:02:57 PM edu.curtin.App.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 3:02:57 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:02:57 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG      Railway state transition to BUILT
+Oct 21, 2024 3:02:57 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG      Railway state transition to BUILT
+Oct 21, 2024 3:02:57 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG      Railway state transition to BUILT
+Oct 21, 2024 3:02:57 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG      Railway state transition to BUILT
+Oct 21, 2024 3:02:57 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG      Railway state transition to BUILT
+Oct 21, 2024 3:02:57 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 0
+Oct 21, 2024 3:02:57 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Stoney_Dewholt: 12193 goods.
+Oct 21, 2024 3:02:57 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Stoney_Dewholt: 12093 goods.Goods transported is 100
+Oct 21, 2024 3:02:57 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Nagbrough: 8604 goods.
+Oct 21, 2024 3:02:57 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Nagbrough: 8504 goods.Goods transported is 100
+Oct 21, 2024 3:02:57 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 11534 goods.
+Oct 21, 2024 3:02:57 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 11434 goods.Goods transported is 100
+Oct 21, 2024 3:02:57 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 4018 goods.
+Oct 21, 2024 3:02:57 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 3918 goods.Goods transported is 100
+Oct 21, 2024 3:02:57 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 14908 goods.
+Oct 21, 2024 3:02:57 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 14808 goods.Goods transported is 100
+Oct 21, 2024 3:02:57 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 11434 goods.
+Oct 21, 2024 3:02:57 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 11334 goods.Goods transported is 200
+Oct 21, 2024 3:02:58 PM edu.curtin.App.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 3:02:58 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:02:58 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:02:58 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:02:58 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:02:58 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:02:58 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:02:58 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG      Railway state transition to BUILT
+Oct 21, 2024 3:02:58 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Peyminster: 6420 goods.
+Oct 21, 2024 3:02:58 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 6320 goods.Goods transported is 100
+Oct 21, 2024 3:02:58 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 15872 goods.
+Oct 21, 2024 3:02:58 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 15772 goods.Goods transported is 100
+Oct 21, 2024 3:02:58 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Peyminster: 6320 goods.
+Oct 21, 2024 3:02:58 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 6220 goods.Goods transported is 200
+Oct 21, 2024 3:02:58 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 11968 goods.
+Oct 21, 2024 3:02:58 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 11868 goods.Goods transported is 100
+Oct 21, 2024 3:02:58 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 4237 goods.
+Oct 21, 2024 3:02:58 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 4137 goods.Goods transported is 100
+Oct 21, 2024 3:02:58 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 15772 goods.
+Oct 21, 2024 3:02:58 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 15672 goods.Goods transported is 200
+Oct 21, 2024 3:02:58 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Peyminster: 6220 goods.
+Oct 21, 2024 3:02:58 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 6120 goods.Goods transported is 300
+Oct 21, 2024 3:02:59 PM edu.curtin.App.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 3:02:59 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:02:59 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:02:59 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:02:59 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:02:59 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:02:59 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:02:59 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:02:59 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Stoney_Dewholt: 13907 goods.
+Oct 21, 2024 3:02:59 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Stoney_Dewholt: 13807 goods.Goods transported is 100
+Oct 21, 2024 3:02:59 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Nagbrough: 10416 goods.
+Oct 21, 2024 3:02:59 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Nagbrough: 10316 goods.Goods transported is 100
+Oct 21, 2024 3:02:59 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 12502 goods.
+Oct 21, 2024 3:02:59 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 12402 goods.Goods transported is 100
+Oct 21, 2024 3:02:59 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 4456 goods.
+Oct 21, 2024 3:02:59 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 4356 goods.Goods transported is 100
+Oct 21, 2024 3:02:59 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 16736 goods.
+Oct 21, 2024 3:02:59 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 16636 goods.Goods transported is 100
+Oct 21, 2024 3:02:59 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 12402 goods.
+Oct 21, 2024 3:02:59 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 12302 goods.Goods transported is 200
+Oct 21, 2024 3:02:59 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 4356 goods.
+Oct 21, 2024 3:02:59 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 4256 goods.Goods transported is 200
+Oct 21, 2024 3:03:00 PM edu.curtin.App.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 3:03:00 PM edu.curtin.App.App main
+INFO: railway-duplication Stoney_Dewholt Peyminster
+Oct 21, 2024 3:03:00 PM edu.curtin.App.App main
+INFO: railway-duplication Nagbrough Mudport
+Oct 21, 2024 3:03:00 PM edu.curtin.App.App main
+INFO: town-population Peyminster 362
+Oct 21, 2024 3:03:00 PM main.java.edu.factory.ConcreteRailObject setRailwayDuplication
+INFO: Railway is now two-way.
+
+Oct 21, 2024 3:03:00 PM main.java.edu.factory.ConcreteRailObject setRailwayDuplication
+INFO: Railway is now two-way.
+
+Oct 21, 2024 3:03:00 PM main.java.edu.factory.ConcreteTownObject setUpdatePopulation
+INFO: 
+Population of town Peyminster set to: 362
+
+Oct 21, 2024 3:03:00 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:00 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:00 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:00 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:00 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:00 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:00 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 4
+Oct 21, 2024 3:03:00 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Peyminster: 6818 goods.
+Oct 21, 2024 3:03:00 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 6718 goods.Goods transported is 100
+Oct 21, 2024 3:03:00 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 17700 goods.
+Oct 21, 2024 3:03:00 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 17600 goods.Goods transported is 100
+Oct 21, 2024 3:03:00 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Peyminster: 6718 goods.
+Oct 21, 2024 3:03:00 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 6618 goods.Goods transported is 200
+Oct 21, 2024 3:03:00 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 12936 goods.
+Oct 21, 2024 3:03:00 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 12836 goods.Goods transported is 100
+Oct 21, 2024 3:03:00 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 4575 goods.
+Oct 21, 2024 3:03:00 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 4475 goods.Goods transported is 100
+Oct 21, 2024 3:03:00 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 17600 goods.
+Oct 21, 2024 3:03:00 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 17500 goods.Goods transported is 200
+Oct 21, 2024 3:03:01 PM edu.curtin.App.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 3:03:01 PM edu.curtin.App.App main
+INFO: town-population Low_Tarholme 684
+Oct 21, 2024 3:03:01 PM main.java.edu.factory.ConcreteTownObject setUpdatePopulation
+INFO: 
+Population of town Low_Tarholme set to: 684
+
+Oct 21, 2024 3:03:01 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:01 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:01 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:01 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:01 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:01 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:01 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 3
+Oct 21, 2024 3:03:01 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Stoney_Dewholt: 15621 goods.
+Oct 21, 2024 3:03:01 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Stoney_Dewholt: 15521 goods.Goods transported is 100
+Oct 21, 2024 3:03:01 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Nagbrough: 12228 goods.
+Oct 21, 2024 3:03:01 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Nagbrough: 12128 goods.Goods transported is 100
+Oct 21, 2024 3:03:01 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 13520 goods.
+Oct 21, 2024 3:03:01 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 13420 goods.Goods transported is 100
+Oct 21, 2024 3:03:01 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 4794 goods.
+Oct 21, 2024 3:03:01 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 4694 goods.Goods transported is 100
+Oct 21, 2024 3:03:01 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 18564 goods.
+Oct 21, 2024 3:03:01 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 18464 goods.Goods transported is 100
+Oct 21, 2024 3:03:01 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 13420 goods.
+Oct 21, 2024 3:03:01 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 13320 goods.Goods transported is 200
+Oct 21, 2024 3:03:02 PM edu.curtin.App.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 3:03:02 PM edu.curtin.App.App main
+INFO: town-founding Drafttham 970
+Oct 21, 2024 3:03:02 PM main.java.edu.factory.ObjectFactory processMessages
+INFO: 
+New town founded!
+
+Oct 21, 2024 3:03:02 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:02 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:02 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:02 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:02 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:02 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:02 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 2
+Oct 21, 2024 3:03:02 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Peyminster: 7342 goods.
+Oct 21, 2024 3:03:02 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 7242 goods.Goods transported is 100
+Oct 21, 2024 3:03:02 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 19528 goods.
+Oct 21, 2024 3:03:02 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 19428 goods.Goods transported is 100
+Oct 21, 2024 3:03:02 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Peyminster: 7242 goods.
+Oct 21, 2024 3:03:02 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 7142 goods.Goods transported is 200
+Oct 21, 2024 3:03:02 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 14004 goods.
+Oct 21, 2024 3:03:02 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 13904 goods.Goods transported is 100
+Oct 21, 2024 3:03:02 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 5013 goods.
+Oct 21, 2024 3:03:02 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 4913 goods.Goods transported is 100
+Oct 21, 2024 3:03:02 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 19428 goods.
+Oct 21, 2024 3:03:02 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 19328 goods.Goods transported is 200
+Oct 21, 2024 3:03:03 PM edu.curtin.App.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 3:03:03 PM edu.curtin.App.App main
+INFO: town-population Drafttham 998
+Oct 21, 2024 3:03:03 PM main.java.edu.factory.ConcreteTownObject setUpdatePopulation
+INFO: 
+Population of town Drafttham set to: 998
+
+Oct 21, 2024 3:03:03 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:03 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:03 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:03 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:03 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:03 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:03 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 1
+Oct 21, 2024 3:03:03 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Stoney_Dewholt: 17335 goods.
+Oct 21, 2024 3:03:03 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Stoney_Dewholt: 17235 goods.Goods transported is 100
+Oct 21, 2024 3:03:03 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Nagbrough: 14040 goods.
+Oct 21, 2024 3:03:03 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Nagbrough: 13940 goods.Goods transported is 100
+Oct 21, 2024 3:03:03 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 14588 goods.
+Oct 21, 2024 3:03:03 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 14488 goods.Goods transported is 100
+Oct 21, 2024 3:03:03 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 5232 goods.
+Oct 21, 2024 3:03:03 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 5132 goods.Goods transported is 100
+Oct 21, 2024 3:03:03 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 20392 goods.
+Oct 21, 2024 3:03:03 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 20292 goods.Goods transported is 100
+Oct 21, 2024 3:03:03 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 14488 goods.
+Oct 21, 2024 3:03:03 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 14388 goods.Goods transported is 200
+Oct 21, 2024 3:03:04 PM edu.curtin.App.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 3:03:04 PM edu.curtin.App.App main
+INFO: railway-duplication Mudport Low_Tarholme
+Oct 21, 2024 3:03:04 PM main.java.edu.factory.ConcreteRailObject setRailwayDuplication
+INFO: Railway is now two-way.
+
+Oct 21, 2024 3:03:04 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:04 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:04 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:04 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:04 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:04 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:04 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 4
+Oct 21, 2024 3:03:04 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Peyminster: 7866 goods.
+Oct 21, 2024 3:03:04 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 7766 goods.Goods transported is 100
+Oct 21, 2024 3:03:04 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 21356 goods.
+Oct 21, 2024 3:03:04 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 21256 goods.Goods transported is 100
+Oct 21, 2024 3:03:04 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Peyminster: 7766 goods.
+Oct 21, 2024 3:03:04 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 7666 goods.Goods transported is 200
+Oct 21, 2024 3:03:04 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 15072 goods.
+Oct 21, 2024 3:03:04 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 14972 goods.Goods transported is 100
+Oct 21, 2024 3:03:04 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 5451 goods.
+Oct 21, 2024 3:03:04 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 5351 goods.Goods transported is 100
+Oct 21, 2024 3:03:04 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 21256 goods.
+Oct 21, 2024 3:03:04 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 21156 goods.Goods transported is 200
+Oct 21, 2024 3:03:05 PM edu.curtin.App.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 3:03:05 PM edu.curtin.App.App main
+INFO: town-population Drafttham 1056
+Oct 21, 2024 3:03:05 PM edu.curtin.App.App main
+INFO: railway-construction Sodhampton Nagbrough
+Oct 21, 2024 3:03:05 PM main.java.edu.factory.ConcreteTownObject setUpdatePopulation
+INFO: 
+Population of town Drafttham set to: 1056
+
+Oct 21, 2024 3:03:05 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:05 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:05 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:05 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:05 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:05 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:05 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 3
+Oct 21, 2024 3:03:05 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 4
+Oct 21, 2024 3:03:05 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Stoney_Dewholt: 19049 goods.
+Oct 21, 2024 3:03:05 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Stoney_Dewholt: 18949 goods.Goods transported is 100
+Oct 21, 2024 3:03:05 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Nagbrough: 15852 goods.
+Oct 21, 2024 3:03:05 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Nagbrough: 15752 goods.Goods transported is 100
+Oct 21, 2024 3:03:05 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 15656 goods.
+Oct 21, 2024 3:03:05 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 15556 goods.Goods transported is 100
+Oct 21, 2024 3:03:05 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 5670 goods.
+Oct 21, 2024 3:03:05 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 5570 goods.Goods transported is 100
+Oct 21, 2024 3:03:05 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 22220 goods.
+Oct 21, 2024 3:03:05 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 22120 goods.Goods transported is 100
+Oct 21, 2024 3:03:05 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 15556 goods.
+Oct 21, 2024 3:03:05 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 15456 goods.Goods transported is 200
+Oct 21, 2024 3:03:06 PM edu.curtin.App.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 3:03:06 PM edu.curtin.App.App main
+INFO: town-population Mudport 1077
+Oct 21, 2024 3:03:06 PM main.java.edu.factory.ConcreteTownObject setUpdatePopulation
+INFO: 
+Population of town Mudport set to: 1077
+
+Oct 21, 2024 3:03:06 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:06 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:06 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:06 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:06 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:06 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:06 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 2
+Oct 21, 2024 3:03:06 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 3
+Oct 21, 2024 3:03:06 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Peyminster: 8390 goods.
+Oct 21, 2024 3:03:06 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 8290 goods.Goods transported is 100
+Oct 21, 2024 3:03:06 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 23197 goods.
+Oct 21, 2024 3:03:06 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 23097 goods.Goods transported is 100
+Oct 21, 2024 3:03:06 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Peyminster: 8290 goods.
+Oct 21, 2024 3:03:06 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 8190 goods.Goods transported is 200
+Oct 21, 2024 3:03:06 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 16140 goods.
+Oct 21, 2024 3:03:06 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 16040 goods.Goods transported is 100
+Oct 21, 2024 3:03:06 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 5889 goods.
+Oct 21, 2024 3:03:06 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 5789 goods.Goods transported is 100
+Oct 21, 2024 3:03:06 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 23097 goods.
+Oct 21, 2024 3:03:06 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 22997 goods.Goods transported is 200
+Oct 21, 2024 3:03:07 PM edu.curtin.App.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 3:03:07 PM edu.curtin.App.App main
+INFO: railway-duplication Low_Tarholme Sodhampton
+Oct 21, 2024 3:03:07 PM edu.curtin.App.App main
+INFO: town-population Peyminster 345
+Oct 21, 2024 3:03:07 PM edu.curtin.App.App main
+INFO: railway-duplication Peyminster Low_Tarholme
+Oct 21, 2024 3:03:07 PM main.java.edu.factory.ConcreteRailObject setRailwayDuplication
+INFO: Railway is now two-way.
+
+Oct 21, 2024 3:03:07 PM main.java.edu.factory.ConcreteTownObject setUpdatePopulation
+INFO: 
+Population of town Peyminster set to: 345
+
+Oct 21, 2024 3:03:07 PM main.java.edu.factory.ConcreteRailObject setRailwayDuplication
+INFO: Railway is now two-way.
+
+Oct 21, 2024 3:03:07 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:07 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:07 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:07 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:07 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:07 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:07 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 1
+Oct 21, 2024 3:03:07 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 4
+Oct 21, 2024 3:03:07 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Stoney_Dewholt: 20763 goods.
+Oct 21, 2024 3:03:07 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Stoney_Dewholt: 20663 goods.Goods transported is 100
+Oct 21, 2024 3:03:07 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Nagbrough: 17664 goods.
+Oct 21, 2024 3:03:07 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Nagbrough: 17564 goods.Goods transported is 100
+Oct 21, 2024 3:03:07 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 16724 goods.
+Oct 21, 2024 3:03:07 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 16624 goods.Goods transported is 100
+Oct 21, 2024 3:03:07 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 6108 goods.
+Oct 21, 2024 3:03:07 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 6008 goods.Goods transported is 100
+Oct 21, 2024 3:03:07 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 24074 goods.
+Oct 21, 2024 3:03:07 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 23974 goods.Goods transported is 100
+Oct 21, 2024 3:03:07 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 16624 goods.
+Oct 21, 2024 3:03:07 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 16524 goods.Goods transported is 200
+Oct 21, 2024 3:03:08 PM edu.curtin.App.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 3:03:08 PM edu.curtin.App.App main
+INFO: railway-duplication Peyminster Sodhampton
+Oct 21, 2024 3:03:08 PM main.java.edu.factory.ConcreteRailObject setRailwayDuplication
+INFO: Railway is now two-way.
+
+Oct 21, 2024 3:03:08 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:08 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:08 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:08 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:08 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:08 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:08 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 0
+Oct 21, 2024 3:03:08 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 4
+Oct 21, 2024 3:03:08 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Peyminster: 8880 goods.
+Oct 21, 2024 3:03:08 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 8780 goods.Goods transported is 100
+Oct 21, 2024 3:03:08 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 25051 goods.
+Oct 21, 2024 3:03:08 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 24951 goods.Goods transported is 100
+Oct 21, 2024 3:03:08 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Peyminster: 8780 goods.
+Oct 21, 2024 3:03:08 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 8680 goods.Goods transported is 200
+Oct 21, 2024 3:03:08 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 17208 goods.
+Oct 21, 2024 3:03:08 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 17108 goods.Goods transported is 100
+Oct 21, 2024 3:03:08 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 6327 goods.
+Oct 21, 2024 3:03:08 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 6227 goods.Goods transported is 100
+Oct 21, 2024 3:03:08 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 24951 goods.
+Oct 21, 2024 3:03:08 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 24851 goods.Goods transported is 200
+Oct 21, 2024 3:03:09 PM edu.curtin.App.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 3:03:09 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:09 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:09 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:09 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:09 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:09 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:09 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG      Railway state transition to BUILT
+Oct 21, 2024 3:03:09 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 3
+Oct 21, 2024 3:03:09 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Stoney_Dewholt: 22477 goods.
+Oct 21, 2024 3:03:09 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Stoney_Dewholt: 22377 goods.Goods transported is 100
+Oct 21, 2024 3:03:09 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Nagbrough: 19476 goods.
+Oct 21, 2024 3:03:09 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Nagbrough: 19376 goods.Goods transported is 100
+Oct 21, 2024 3:03:09 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 17792 goods.
+Oct 21, 2024 3:03:09 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 17692 goods.Goods transported is 100
+Oct 21, 2024 3:03:09 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 6546 goods.
+Oct 21, 2024 3:03:09 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 6446 goods.Goods transported is 100
+Oct 21, 2024 3:03:09 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 25928 goods.
+Oct 21, 2024 3:03:09 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 25828 goods.Goods transported is 100
+Oct 21, 2024 3:03:09 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 17692 goods.
+Oct 21, 2024 3:03:09 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 17592 goods.Goods transported is 200
+Oct 21, 2024 3:03:09 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 6446 goods.
+Oct 21, 2024 3:03:09 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: Before transporting from Peyminster: 9025 goods.
+Oct 21, 2024 3:03:09 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 6346 goods.Goods transported is 200
+Oct 21, 2024 3:03:09 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 8925 goods.Goods transported is 100
+Oct 21, 2024 3:03:10 PM edu.curtin.App.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 3:03:10 PM edu.curtin.App.App main
+INFO: town-population Low_Tarholme 784
+Oct 21, 2024 3:03:10 PM main.java.edu.factory.ConcreteTownObject setUpdatePopulation
+INFO: 
+Population of town Low_Tarholme set to: 784
+
+Oct 21, 2024 3:03:10 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:10 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:10 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:10 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:10 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:10 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:10 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:10 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 2
+Oct 21, 2024 3:03:10 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Peyminster: 9270 goods.
+Oct 21, 2024 3:03:10 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 9170 goods.Goods transported is 100
+Oct 21, 2024 3:03:10 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 26905 goods.
+Oct 21, 2024 3:03:10 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 26805 goods.Goods transported is 100
+Oct 21, 2024 3:03:10 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Peyminster: 9170 goods.
+Oct 21, 2024 3:03:10 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 9070 goods.Goods transported is 200
+Oct 21, 2024 3:03:10 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 18376 goods.
+Oct 21, 2024 3:03:10 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 18276 goods.Goods transported is 100
+Oct 21, 2024 3:03:10 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 6665 goods.
+Oct 21, 2024 3:03:10 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 6565 goods.Goods transported is 100
+Oct 21, 2024 3:03:10 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 26805 goods.
+Oct 21, 2024 3:03:10 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 26705 goods.Goods transported is 200
+Oct 21, 2024 3:03:10 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 6565 goods.
+Oct 21, 2024 3:03:10 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: Before transporting from Peyminster: 9070 goods.
+Oct 21, 2024 3:03:10 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 6465 goods.Goods transported is 200
+Oct 21, 2024 3:03:10 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 8970 goods.Goods transported is 300
+Oct 21, 2024 3:03:11 PM edu.curtin.App.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 3:03:11 PM edu.curtin.App.App main
+INFO: town-population Drafttham 1178
+Oct 21, 2024 3:03:11 PM edu.curtin.App.App main
+INFO: railway-duplication Nagbrough Sodhampton
+Oct 21, 2024 3:03:11 PM main.java.edu.factory.ConcreteTownObject setUpdatePopulation
+INFO: 
+Population of town Drafttham set to: 1178
+
+Oct 21, 2024 3:03:11 PM main.java.edu.factory.ConcreteRailObject setRailwayDuplication
+INFO: Railway is now two-way.
+
+Oct 21, 2024 3:03:11 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:11 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:11 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:11 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:11 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:11 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:11 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:11 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 4
+Oct 21, 2024 3:03:11 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Stoney_Dewholt: 24191 goods.
+Oct 21, 2024 3:03:11 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Stoney_Dewholt: 24091 goods.Goods transported is 100
+Oct 21, 2024 3:03:11 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Nagbrough: 21288 goods.
+Oct 21, 2024 3:03:11 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Nagbrough: 21188 goods.Goods transported is 100
+Oct 21, 2024 3:03:11 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 19060 goods.
+Oct 21, 2024 3:03:11 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 18960 goods.Goods transported is 100
+Oct 21, 2024 3:03:11 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 6784 goods.
+Oct 21, 2024 3:03:11 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 6684 goods.Goods transported is 100
+Oct 21, 2024 3:03:11 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 27782 goods.
+Oct 21, 2024 3:03:11 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 27682 goods.Goods transported is 100
+Oct 21, 2024 3:03:11 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 18960 goods.
+Oct 21, 2024 3:03:11 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 18860 goods.Goods transported is 200
+Oct 21, 2024 3:03:11 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 6684 goods.
+Oct 21, 2024 3:03:11 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: Before transporting from Peyminster: 9315 goods.
+Oct 21, 2024 3:03:11 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 6584 goods.Goods transported is 200
+Oct 21, 2024 3:03:11 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 9215 goods.Goods transported is 100
+Oct 21, 2024 3:03:12 PM edu.curtin.App.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 3:03:12 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:12 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:12 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:12 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:12 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:12 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:12 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:12 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 3
+Oct 21, 2024 3:03:12 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Peyminster: 9560 goods.
+Oct 21, 2024 3:03:12 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 9460 goods.Goods transported is 100
+Oct 21, 2024 3:03:12 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 28759 goods.
+Oct 21, 2024 3:03:12 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 28659 goods.Goods transported is 100
+Oct 21, 2024 3:03:12 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Peyminster: 9460 goods.
+Oct 21, 2024 3:03:12 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 9360 goods.Goods transported is 200
+Oct 21, 2024 3:03:12 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 19644 goods.
+Oct 21, 2024 3:03:12 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 19544 goods.Goods transported is 100
+Oct 21, 2024 3:03:12 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 6903 goods.
+Oct 21, 2024 3:03:12 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 6803 goods.Goods transported is 100
+Oct 21, 2024 3:03:12 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 28659 goods.
+Oct 21, 2024 3:03:12 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 28559 goods.Goods transported is 200
+Oct 21, 2024 3:03:12 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 6803 goods.
+Oct 21, 2024 3:03:12 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: Before transporting from Peyminster: 9360 goods.
+Oct 21, 2024 3:03:12 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 6703 goods.Goods transported is 200
+Oct 21, 2024 3:03:12 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 9260 goods.Goods transported is 300
+Oct 21, 2024 3:03:13 PM edu.curtin.App.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 3:03:13 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:13 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:13 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:13 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:13 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:13 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:13 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:13 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 2
+Oct 21, 2024 3:03:13 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Stoney_Dewholt: 25905 goods.
+Oct 21, 2024 3:03:13 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Stoney_Dewholt: 25805 goods.Goods transported is 100
+Oct 21, 2024 3:03:13 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Nagbrough: 23100 goods.
+Oct 21, 2024 3:03:13 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Nagbrough: 23000 goods.Goods transported is 100
+Oct 21, 2024 3:03:13 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 20328 goods.
+Oct 21, 2024 3:03:13 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 20228 goods.Goods transported is 100
+Oct 21, 2024 3:03:13 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 7022 goods.
+Oct 21, 2024 3:03:13 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 6922 goods.Goods transported is 100
+Oct 21, 2024 3:03:13 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 29636 goods.
+Oct 21, 2024 3:03:13 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 29536 goods.Goods transported is 100
+Oct 21, 2024 3:03:13 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 20228 goods.
+Oct 21, 2024 3:03:13 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 20128 goods.Goods transported is 200
+Oct 21, 2024 3:03:13 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 6922 goods.
+Oct 21, 2024 3:03:13 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: Before transporting from Peyminster: 9605 goods.
+Oct 21, 2024 3:03:13 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 6822 goods.Goods transported is 200
+Oct 21, 2024 3:03:13 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 9505 goods.Goods transported is 100
+Oct 21, 2024 3:03:14 PM edu.curtin.App.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 3:03:14 PM edu.curtin.App.App main
+INFO: town-population Mudport 1165
+Oct 21, 2024 3:03:14 PM main.java.edu.factory.ConcreteTownObject setUpdatePopulation
+INFO: 
+Population of town Mudport set to: 1165
+
+Oct 21, 2024 3:03:14 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:14 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:14 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:14 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:14 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:14 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:14 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:14 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 1
+Oct 21, 2024 3:03:14 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Peyminster: 9850 goods.
+Oct 21, 2024 3:03:14 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 9750 goods.Goods transported is 100
+Oct 21, 2024 3:03:14 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 30701 goods.
+Oct 21, 2024 3:03:14 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 30601 goods.Goods transported is 100
+Oct 21, 2024 3:03:14 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Peyminster: 9750 goods.
+Oct 21, 2024 3:03:14 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 9650 goods.Goods transported is 200
+Oct 21, 2024 3:03:14 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 20912 goods.
+Oct 21, 2024 3:03:14 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 20812 goods.Goods transported is 100
+Oct 21, 2024 3:03:14 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 7141 goods.
+Oct 21, 2024 3:03:14 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 7041 goods.Goods transported is 100
+Oct 21, 2024 3:03:14 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 30601 goods.
+Oct 21, 2024 3:03:14 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 30501 goods.Goods transported is 200
+Oct 21, 2024 3:03:14 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 7041 goods.
+Oct 21, 2024 3:03:14 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: Before transporting from Peyminster: 9650 goods.
+Oct 21, 2024 3:03:14 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 6941 goods.Goods transported is 200
+Oct 21, 2024 3:03:14 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 9550 goods.Goods transported is 300
+Oct 21, 2024 3:03:15 PM edu.curtin.App.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 3:03:15 PM edu.curtin.App.App main
+INFO: town-population Low_Tarholme 925
+Oct 21, 2024 3:03:15 PM main.java.edu.factory.ConcreteTownObject setUpdatePopulation
+INFO: 
+Population of town Low_Tarholme set to: 925
+
+Oct 21, 2024 3:03:15 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:15 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:15 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:15 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:15 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:15 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:15 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:15 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 0
+Oct 21, 2024 3:03:15 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Stoney_Dewholt: 27619 goods.
+Oct 21, 2024 3:03:15 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Stoney_Dewholt: 27519 goods.Goods transported is 100
+Oct 21, 2024 3:03:15 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Nagbrough: 24912 goods.
+Oct 21, 2024 3:03:15 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Nagbrough: 24812 goods.Goods transported is 100
+Oct 21, 2024 3:03:15 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 21737 goods.
+Oct 21, 2024 3:03:15 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 21637 goods.Goods transported is 100
+Oct 21, 2024 3:03:15 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 7260 goods.
+Oct 21, 2024 3:03:15 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 7160 goods.Goods transported is 100
+Oct 21, 2024 3:03:15 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 31666 goods.
+Oct 21, 2024 3:03:15 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 31566 goods.Goods transported is 100
+Oct 21, 2024 3:03:15 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 21637 goods.
+Oct 21, 2024 3:03:15 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 21537 goods.Goods transported is 200
+Oct 21, 2024 3:03:15 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 7160 goods.
+Oct 21, 2024 3:03:15 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: Before transporting from Peyminster: 9895 goods.
+Oct 21, 2024 3:03:15 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 7060 goods.Goods transported is 200
+Oct 21, 2024 3:03:15 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 9795 goods.Goods transported is 100
+Oct 21, 2024 3:03:16 PM edu.curtin.App.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 3:03:16 PM edu.curtin.App.App main
+INFO: town-population Nagbrough 1109
+Oct 21, 2024 3:03:16 PM main.java.edu.factory.ConcreteTownObject setUpdatePopulation
+INFO: 
+Population of town Nagbrough set to: 1109
+
+Oct 21, 2024 3:03:16 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:16 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:16 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:16 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:16 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:16 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:16 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:16 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG      Railway state transition to BUILT
+Oct 21, 2024 3:03:16 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Peyminster: 10140 goods.
+Oct 21, 2024 3:03:16 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 10040 goods.Goods transported is 100
+Oct 21, 2024 3:03:16 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 32731 goods.
+Oct 21, 2024 3:03:16 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 32631 goods.Goods transported is 100
+Oct 21, 2024 3:03:16 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Peyminster: 10040 goods.
+Oct 21, 2024 3:03:16 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 9940 goods.Goods transported is 200
+Oct 21, 2024 3:03:16 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 22462 goods.
+Oct 21, 2024 3:03:16 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 22362 goods.Goods transported is 100
+Oct 21, 2024 3:03:16 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 7379 goods.
+Oct 21, 2024 3:03:16 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 7279 goods.Goods transported is 100
+Oct 21, 2024 3:03:16 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 32631 goods.
+Oct 21, 2024 3:03:16 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 32531 goods.Goods transported is 200
+Oct 21, 2024 3:03:16 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 7279 goods.
+Oct 21, 2024 3:03:16 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: Before transporting from Peyminster: 9940 goods.
+Oct 21, 2024 3:03:16 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 7179 goods.Goods transported is 200
+Oct 21, 2024 3:03:16 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 9840 goods.Goods transported is 300
+Oct 21, 2024 3:03:16 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 7179 goods.
+Oct 21, 2024 3:03:16 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: Before transporting from Nagbrough: 25921 goods.
+Oct 21, 2024 3:03:16 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 7079 goods.Goods transported is 300
+Oct 21, 2024 3:03:16 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Nagbrough: 25821 goods.Goods transported is 100
+Oct 21, 2024 3:03:17 PM edu.curtin.App.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 3:03:17 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:17 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:17 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:17 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:17 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:17 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:17 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:17 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:17 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Stoney_Dewholt: 29333 goods.
+Oct 21, 2024 3:03:17 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Stoney_Dewholt: 29233 goods.Goods transported is 100
+Oct 21, 2024 3:03:17 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Nagbrough: 26930 goods.
+Oct 21, 2024 3:03:17 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Nagbrough: 26830 goods.Goods transported is 100
+Oct 21, 2024 3:03:17 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 23287 goods.
+Oct 21, 2024 3:03:17 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 23187 goods.Goods transported is 100
+Oct 21, 2024 3:03:17 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 7398 goods.
+Oct 21, 2024 3:03:17 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 7298 goods.Goods transported is 100
+Oct 21, 2024 3:03:17 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 33696 goods.
+Oct 21, 2024 3:03:17 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 33596 goods.Goods transported is 100
+Oct 21, 2024 3:03:17 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 23187 goods.
+Oct 21, 2024 3:03:17 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 23087 goods.Goods transported is 200
+Oct 21, 2024 3:03:17 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 7298 goods.
+Oct 21, 2024 3:03:17 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: Before transporting from Peyminster: 10185 goods.
+Oct 21, 2024 3:03:17 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 7198 goods.Goods transported is 200
+Oct 21, 2024 3:03:17 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 10085 goods.Goods transported is 100
+Oct 21, 2024 3:03:17 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 7198 goods.
+Oct 21, 2024 3:03:17 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: Before transporting from Nagbrough: 26830 goods.
+Oct 21, 2024 3:03:17 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 7098 goods.Goods transported is 300
+Oct 21, 2024 3:03:17 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Nagbrough: 26730 goods.Goods transported is 200
+Oct 21, 2024 3:03:18 PM edu.curtin.App.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 3:03:18 PM edu.curtin.App.App main
+INFO: railway-construction Drafttham Low_Tarholme
+Oct 21, 2024 3:03:18 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:18 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:18 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:18 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:18 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:18 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:18 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:18 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:18 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 4
+Oct 21, 2024 3:03:18 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Peyminster: 10430 goods.
+Oct 21, 2024 3:03:18 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 10330 goods.Goods transported is 100
+Oct 21, 2024 3:03:18 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 34761 goods.
+Oct 21, 2024 3:03:18 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 34661 goods.Goods transported is 100
+Oct 21, 2024 3:03:18 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Peyminster: 10330 goods.
+Oct 21, 2024 3:03:18 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 10230 goods.Goods transported is 200
+Oct 21, 2024 3:03:18 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 24012 goods.
+Oct 21, 2024 3:03:18 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 23912 goods.Goods transported is 100
+Oct 21, 2024 3:03:18 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 7417 goods.
+Oct 21, 2024 3:03:18 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 7317 goods.Goods transported is 100
+Oct 21, 2024 3:03:18 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 34661 goods.
+Oct 21, 2024 3:03:18 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 34561 goods.Goods transported is 200
+Oct 21, 2024 3:03:18 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 7317 goods.
+Oct 21, 2024 3:03:18 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: Before transporting from Peyminster: 10230 goods.
+Oct 21, 2024 3:03:18 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 7217 goods.Goods transported is 200
+Oct 21, 2024 3:03:18 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 10130 goods.Goods transported is 300
+Oct 21, 2024 3:03:18 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 7217 goods.
+Oct 21, 2024 3:03:18 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: Before transporting from Nagbrough: 27839 goods.
+Oct 21, 2024 3:03:18 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 7117 goods.Goods transported is 300
+Oct 21, 2024 3:03:18 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Nagbrough: 27739 goods.Goods transported is 100
+Oct 21, 2024 3:03:19 PM edu.curtin.App.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 3:03:19 PM edu.curtin.App.App main
+INFO: railway-duplication Mudport Sodhampton
+Oct 21, 2024 3:03:19 PM main.java.edu.factory.ConcreteRailObject setRailwayDuplication
+INFO: Railway is now two-way.
+
+Oct 21, 2024 3:03:19 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:19 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:19 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:19 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:19 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:19 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:19 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:19 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:19 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 4
+Oct 21, 2024 3:03:19 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Stoney_Dewholt: 31047 goods.
+Oct 21, 2024 3:03:19 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Stoney_Dewholt: 30947 goods.Goods transported is 100
+Oct 21, 2024 3:03:19 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Nagbrough: 28848 goods.
+Oct 21, 2024 3:03:19 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Nagbrough: 28748 goods.Goods transported is 100
+Oct 21, 2024 3:03:19 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 24837 goods.
+Oct 21, 2024 3:03:19 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 24737 goods.Goods transported is 100
+Oct 21, 2024 3:03:19 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 7436 goods.
+Oct 21, 2024 3:03:19 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 7336 goods.Goods transported is 100
+Oct 21, 2024 3:03:19 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 35726 goods.
+Oct 21, 2024 3:03:19 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 35626 goods.Goods transported is 100
+Oct 21, 2024 3:03:19 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 24737 goods.
+Oct 21, 2024 3:03:19 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 24637 goods.Goods transported is 200
+Oct 21, 2024 3:03:19 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 7336 goods.
+Oct 21, 2024 3:03:19 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: Before transporting from Peyminster: 10475 goods.
+Oct 21, 2024 3:03:19 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 7236 goods.Goods transported is 200
+Oct 21, 2024 3:03:19 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 10375 goods.Goods transported is 100
+Oct 21, 2024 3:03:19 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 7236 goods.
+Oct 21, 2024 3:03:19 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: Before transporting from Nagbrough: 28748 goods.
+Oct 21, 2024 3:03:19 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 7136 goods.Goods transported is 300
+Oct 21, 2024 3:03:19 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Nagbrough: 28648 goods.Goods transported is 200
+Oct 21, 2024 3:03:20 PM edu.curtin.App.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 3:03:20 PM edu.curtin.App.App main
+INFO: town-population Drafttham 1342
+Oct 21, 2024 3:03:20 PM edu.curtin.App.App main
+INFO: railway-construction Stoney_Dewholt Sodhampton
+Oct 21, 2024 3:03:20 PM main.java.edu.factory.ConcreteTownObject setUpdatePopulation
+INFO: 
+Population of town Drafttham set to: 1342
+
+Oct 21, 2024 3:03:20 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:20 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:20 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:20 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:20 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:20 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:20 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:20 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:20 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 3
+Oct 21, 2024 3:03:20 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 4
+Oct 21, 2024 3:03:20 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Peyminster: 10720 goods.
+Oct 21, 2024 3:03:20 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 10620 goods.Goods transported is 100
+Oct 21, 2024 3:03:20 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 36791 goods.
+Oct 21, 2024 3:03:20 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 36691 goods.Goods transported is 100
+Oct 21, 2024 3:03:20 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Peyminster: 10620 goods.
+Oct 21, 2024 3:03:20 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 10520 goods.Goods transported is 200
+Oct 21, 2024 3:03:20 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 25562 goods.
+Oct 21, 2024 3:03:20 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 25462 goods.Goods transported is 100
+Oct 21, 2024 3:03:20 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 7455 goods.
+Oct 21, 2024 3:03:20 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 7355 goods.Goods transported is 100
+Oct 21, 2024 3:03:20 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 36691 goods.
+Oct 21, 2024 3:03:20 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 36591 goods.Goods transported is 200
+Oct 21, 2024 3:03:20 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 7355 goods.
+Oct 21, 2024 3:03:20 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: Before transporting from Peyminster: 10520 goods.
+Oct 21, 2024 3:03:20 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 7255 goods.Goods transported is 200
+Oct 21, 2024 3:03:20 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 10420 goods.Goods transported is 300
+Oct 21, 2024 3:03:20 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 7255 goods.
+Oct 21, 2024 3:03:20 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: Before transporting from Nagbrough: 29757 goods.
+Oct 21, 2024 3:03:20 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 7155 goods.Goods transported is 300
+Oct 21, 2024 3:03:20 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Nagbrough: 29657 goods.Goods transported is 100
+Oct 21, 2024 3:03:21 PM edu.curtin.App.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 3:03:21 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:21 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:21 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:21 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:21 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:21 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:21 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:21 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:21 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 2
+Oct 21, 2024 3:03:21 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 3
+Oct 21, 2024 3:03:21 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Stoney_Dewholt: 32761 goods.
+Oct 21, 2024 3:03:21 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Stoney_Dewholt: 32661 goods.Goods transported is 100
+Oct 21, 2024 3:03:21 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Nagbrough: 30766 goods.
+Oct 21, 2024 3:03:21 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Nagbrough: 30666 goods.Goods transported is 100
+Oct 21, 2024 3:03:21 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 26387 goods.
+Oct 21, 2024 3:03:21 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 26287 goods.Goods transported is 100
+Oct 21, 2024 3:03:21 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 7474 goods.
+Oct 21, 2024 3:03:21 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 7374 goods.Goods transported is 100
+Oct 21, 2024 3:03:21 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 37756 goods.
+Oct 21, 2024 3:03:21 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 37656 goods.Goods transported is 100
+Oct 21, 2024 3:03:21 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 26287 goods.
+Oct 21, 2024 3:03:21 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 26187 goods.Goods transported is 200
+Oct 21, 2024 3:03:21 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 7374 goods.
+Oct 21, 2024 3:03:21 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: Before transporting from Peyminster: 10765 goods.
+Oct 21, 2024 3:03:21 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 7274 goods.Goods transported is 200
+Oct 21, 2024 3:03:21 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 10665 goods.Goods transported is 100
+Oct 21, 2024 3:03:21 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 7274 goods.
+Oct 21, 2024 3:03:21 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: Before transporting from Nagbrough: 30666 goods.
+Oct 21, 2024 3:03:21 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 7174 goods.Goods transported is 300
+Oct 21, 2024 3:03:21 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Nagbrough: 30566 goods.Goods transported is 200
+Oct 21, 2024 3:03:22 PM edu.curtin.App.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 3:03:22 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:22 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:22 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:22 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:22 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:22 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:22 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:22 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:22 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 1
+Oct 21, 2024 3:03:22 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 2
+Oct 21, 2024 3:03:22 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Peyminster: 11010 goods.
+Oct 21, 2024 3:03:22 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 10910 goods.Goods transported is 100
+Oct 21, 2024 3:03:22 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 38821 goods.
+Oct 21, 2024 3:03:22 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 38721 goods.Goods transported is 100
+Oct 21, 2024 3:03:22 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Peyminster: 10910 goods.
+Oct 21, 2024 3:03:22 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 10810 goods.Goods transported is 200
+Oct 21, 2024 3:03:22 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 27112 goods.
+Oct 21, 2024 3:03:22 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 27012 goods.Goods transported is 100
+Oct 21, 2024 3:03:22 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 7493 goods.
+Oct 21, 2024 3:03:22 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 7393 goods.Goods transported is 100
+Oct 21, 2024 3:03:22 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 38721 goods.
+Oct 21, 2024 3:03:22 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 38621 goods.Goods transported is 200
+Oct 21, 2024 3:03:22 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 7393 goods.
+Oct 21, 2024 3:03:22 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: Before transporting from Peyminster: 10810 goods.
+Oct 21, 2024 3:03:22 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 7293 goods.Goods transported is 200
+Oct 21, 2024 3:03:22 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 10710 goods.Goods transported is 300
+Oct 21, 2024 3:03:22 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 7293 goods.
+Oct 21, 2024 3:03:22 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: Before transporting from Nagbrough: 31675 goods.
+Oct 21, 2024 3:03:22 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 7193 goods.Goods transported is 300
+Oct 21, 2024 3:03:22 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Nagbrough: 31575 goods.Goods transported is 100
+Oct 21, 2024 3:03:23 PM edu.curtin.App.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 3:03:23 PM edu.curtin.App.App main
+INFO: railway-construction Stoney_Dewholt Nagbrough
+Oct 21, 2024 3:03:23 PM edu.curtin.App.App main
+INFO: railway-duplication Stoney_Dewholt Sodhampton
+Oct 21, 2024 3:03:23 PM main.java.edu.factory.ConcreteRailObject setRailwayDuplication
+INFO: Railway is now two-way.
+
+Oct 21, 2024 3:03:23 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:23 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:23 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:23 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:23 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:23 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:23 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:23 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:23 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 0
+Oct 21, 2024 3:03:23 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 1
+Oct 21, 2024 3:03:23 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 4
+Oct 21, 2024 3:03:23 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Stoney_Dewholt: 34475 goods.
+Oct 21, 2024 3:03:23 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Stoney_Dewholt: 34375 goods.Goods transported is 100
+Oct 21, 2024 3:03:23 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Nagbrough: 32684 goods.
+Oct 21, 2024 3:03:23 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Nagbrough: 32584 goods.Goods transported is 100
+Oct 21, 2024 3:03:23 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 27937 goods.
+Oct 21, 2024 3:03:23 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 27837 goods.Goods transported is 100
+Oct 21, 2024 3:03:23 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 7512 goods.
+Oct 21, 2024 3:03:23 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 7412 goods.Goods transported is 100
+Oct 21, 2024 3:03:23 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 39786 goods.
+Oct 21, 2024 3:03:23 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 39686 goods.Goods transported is 100
+Oct 21, 2024 3:03:23 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 27837 goods.
+Oct 21, 2024 3:03:23 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 27737 goods.Goods transported is 200
+Oct 21, 2024 3:03:23 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 7412 goods.
+Oct 21, 2024 3:03:23 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: Before transporting from Peyminster: 11055 goods.
+Oct 21, 2024 3:03:23 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 7312 goods.Goods transported is 200
+Oct 21, 2024 3:03:23 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 10955 goods.Goods transported is 100
+Oct 21, 2024 3:03:23 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 7312 goods.
+Oct 21, 2024 3:03:23 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: Before transporting from Nagbrough: 32584 goods.
+Oct 21, 2024 3:03:23 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 7212 goods.Goods transported is 300
+Oct 21, 2024 3:03:23 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Nagbrough: 32484 goods.Goods transported is 200
+Oct 21, 2024 3:03:24 PM edu.curtin.App.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 3:03:24 PM edu.curtin.App.App main
+INFO: railway-duplication Stoney_Dewholt Nagbrough
+Oct 21, 2024 3:03:24 PM main.java.edu.factory.ConcreteRailObject setRailwayDuplication
+INFO: Railway is now two-way.
+
+Oct 21, 2024 3:03:24 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:24 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:24 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:24 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:24 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:24 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:24 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:24 PM main.java.edu.state.BuiltState build
+INFO: 
+
+
+ALREADY BUILT
+Oct 21, 2024 3:03:24 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG      Railway state transition to BUILT
+Oct 21, 2024 3:03:24 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 0
+Oct 21, 2024 3:03:24 PM main.java.edu.state.BuildingState build
+INFO: 
+
+
+DEBUG   Railways being built days remaining: 4
+Oct 21, 2024 3:03:24 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Peyminster: 11300 goods.
+Oct 21, 2024 3:03:24 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 11200 goods.Goods transported is 100
+Oct 21, 2024 3:03:24 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 40851 goods.
+Oct 21, 2024 3:03:24 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 40751 goods.Goods transported is 100
+Oct 21, 2024 3:03:24 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Peyminster: 11200 goods.
+Oct 21, 2024 3:03:24 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 11100 goods.Goods transported is 200
+Oct 21, 2024 3:03:24 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Low_Tarholme: 28662 goods.
+Oct 21, 2024 3:03:24 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 28562 goods.Goods transported is 100
+Oct 21, 2024 3:03:24 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 7531 goods.
+Oct 21, 2024 3:03:24 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 7431 goods.Goods transported is 100
+Oct 21, 2024 3:03:24 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Mudport: 40751 goods.
+Oct 21, 2024 3:03:24 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Mudport: 40651 goods.Goods transported is 200
+Oct 21, 2024 3:03:24 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 7431 goods.
+Oct 21, 2024 3:03:24 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: Before transporting from Peyminster: 11100 goods.
+Oct 21, 2024 3:03:24 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 7331 goods.Goods transported is 200
+Oct 21, 2024 3:03:24 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Peyminster: 11000 goods.Goods transported is 300
+Oct 21, 2024 3:03:24 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Sodhampton: 7331 goods.
+Oct 21, 2024 3:03:24 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: Before transporting from Nagbrough: 33593 goods.
+Oct 21, 2024 3:03:24 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Sodhampton: 7231 goods.Goods transported is 300
+Oct 21, 2024 3:03:24 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Nagbrough: 33493 goods.Goods transported is 100
+Oct 21, 2024 3:03:24 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: 
+
+
+Before transporting from Drafttham: 26614 goods.
+Oct 21, 2024 3:03:24 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: Before transporting from Low_Tarholme: 28562 goods.
+Oct 21, 2024 3:03:24 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Drafttham: 26514 goods.Goods transported is 100
+Oct 21, 2024 3:03:24 PM main.java.edu.gui.Graphics processGoodsTransport
+INFO: After transporting from Low_Tarholme: 28462 goods.Goods transported is 200

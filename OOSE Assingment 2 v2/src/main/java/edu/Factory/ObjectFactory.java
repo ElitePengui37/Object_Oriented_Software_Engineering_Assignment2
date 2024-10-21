@@ -1,8 +1,8 @@
-package main.java.edu.Factory;
+package main.java.edu.factory;
 
 
-import main.java.edu.State.RailwayController;
-import main.java.edu.State.BuildingState;
+import main.java.edu.state.RailwayController;
+import main.java.edu.state.BuildingState;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.logging.Logger;
