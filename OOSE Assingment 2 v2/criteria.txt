@@ -1,0 +1,21 @@
+a)
+Overall this application has no warnings or errors from the compiler of PMD, no warnings have been supressed. The application has been extensively commented where clarification may be needed to ensure full code understanding by the marker.
+
+
+
+b)
+This application has been broken up into several packages, classes, interfaces and methods. Each design pattern as well as the entry point of the applicaiton has been placed in its own package. Each file within a package is its own class or interface with some of them containing several methods.
+
+
+c)
+Error handling has been implemented in several places using a combination of exception handling and conditional statements to prevents issues however the application may still crash if the town is null, however, there is not enough time left to fix this.
+Logging has been used extensively as alot of the debugging statements have been placed into log files. The logging files provide alot of useful information about railway states, population updates, goods transportation, and much more, however, the formatting is not as neat as in the application.
+
+
+
+d)
+My object factory utilizes dependency injection as the msgList is passed into it every day the object factory processed the messages in that list and created or updated objects accordingly based on the strings. the countdown for days until a state transition is also updated as well as the updating of all towns resources stockpiles
+
+
+e)
+My Observer pattern has been utilized

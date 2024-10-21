@@ -1,63 +1,81 @@
-Oct 21, 2024 4:38:47 PM main.java.edu.gui.Graphics createObject
+Oct 21, 2024 4:54:23 PM main.java.edu.gui.Graphics createObject
 INFO: Graphics object has been created
-Oct 21, 2024 4:38:47 PM main.java.edu.fileio.FileProcessor createFileObject
+Oct 21, 2024 4:54:23 PM main.java.edu.fileio.FileProcessor createFileObject
 INFO: File object created
-Oct 21, 2024 4:38:47 PM edu.curtin.app.App main
+Oct 21, 2024 4:54:23 PM edu.curtin.app.App main
 INFO: msgList items:
 
 
 
-Oct 21, 2024 4:38:48 PM edu.curtin.app.App main
+Oct 21, 2024 4:54:24 PM edu.curtin.app.App main
 INFO: msgList items:
 
 
 
-Oct 21, 2024 4:38:48 PM edu.curtin.app.App main
-INFO: town-founding Stafholme 407
-Oct 21, 2024 4:38:48 PM edu.curtin.app.App main
-INFO: town-founding Chopkirk 182
-Oct 21, 2024 4:38:48 PM main.java.edu.factory.ObjectFactory processMessages
+Oct 21, 2024 4:54:24 PM edu.curtin.app.App main
+INFO: town-founding Hook_Pendlecombe 207
+Oct 21, 2024 4:54:24 PM edu.curtin.app.App main
+INFO: dCAWjXSKx 989 FUKFGNep%&M
+Oct 21, 2024 4:54:24 PM edu.curtin.app.App main
+INFO: town-founding Marsh_Effmere 446
+Oct 21, 2024 4:54:24 PM main.java.edu.factory.ObjectFactory processMessages
 INFO: 
 New town founded!
 
-Oct 21, 2024 4:38:48 PM main.java.edu.factory.ObjectFactory processMessages
+Oct 21, 2024 4:54:24 PM main.java.edu.factory.ObjectFactory processMessages
 INFO: 
 New town founded!
 
-Oct 21, 2024 4:38:49 PM edu.curtin.app.App main
+Oct 21, 2024 4:54:25 PM edu.curtin.app.App main
 INFO: msgList items:
 
 
 
-Oct 21, 2024 4:38:49 PM edu.curtin.app.App main
-INFO: town-population Stafholme 391
-Oct 21, 2024 4:38:49 PM main.java.edu.factory.ConcreteTownObject setUpdatePopulation
+Oct 21, 2024 4:54:26 PM edu.curtin.app.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 4:54:27 PM edu.curtin.app.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 4:54:28 PM edu.curtin.app.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 4:54:29 PM edu.curtin.app.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 4:54:30 PM edu.curtin.app.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 4:54:31 PM edu.curtin.app.App main
+INFO: msgList items:
+
+
+
+Oct 21, 2024 4:54:31 PM edu.curtin.app.App main
+INFO: town-population Marsh_Effmere 519
+Oct 21, 2024 4:54:31 PM main.java.edu.factory.ConcreteTownObject setUpdatePopulation
 INFO: 
-Population of town Stafholme set to: 391
+Population of town Marsh_Effmere set to: 519
 
-Oct 21, 2024 4:38:50 PM edu.curtin.app.App main
+Oct 21, 2024 4:54:32 PM edu.curtin.app.App main
 INFO: msgList items:
 
 
 
-Oct 21, 2024 4:38:51 PM edu.curtin.app.App main
+Oct 21, 2024 4:54:32 PM edu.curtin.app.App main
+INFO: railway-duplication uNZm Hook_Pendlecombe Hook_Pendlecombe
+Oct 21, 2024 4:54:33 PM edu.curtin.app.App main
 INFO: msgList items:
 
 
-
-Oct 21, 2024 4:38:52 PM edu.curtin.app.App main
-INFO: msgList items:
-
-
-
-Oct 21, 2024 4:38:53 PM edu.curtin.app.App main
-INFO: msgList items:
-
-
-
-Oct 21, 2024 4:38:53 PM edu.curtin.app.App main
-INFO: town-population Chopkirk 166
-Oct 21, 2024 4:38:53 PM main.java.edu.factory.ConcreteTownObject setUpdatePopulation
-INFO: 
-Population of town Chopkirk set to: 166
 
