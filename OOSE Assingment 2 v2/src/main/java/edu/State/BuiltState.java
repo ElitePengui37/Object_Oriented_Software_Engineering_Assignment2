@@ -1,11 +1,14 @@
 package main.java.edu.State;
 
+import java.util.logging.Logger;
+
 public class BuiltState implements RailState
 {
+    private static final Logger log = Logger.getLogger(BuiltState.class.getName()); // imports logger
     @Override
     public void build(RailwayController controller) // do nothing if already built
     {
-        // LOG HERE ALREADY BUILT
+        log.info("\n\n\nALREADY BUILT");
     }
 
 

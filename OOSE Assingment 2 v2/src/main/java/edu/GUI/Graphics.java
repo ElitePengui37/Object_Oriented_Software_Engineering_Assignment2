@@ -6,9 +6,11 @@ import main.java.edu.Factory.RailwayInterface;
 import main.java.edu.State.RailwayController;
 import edu.curtin.App.*;
 import java.util.List;
+import java.util.logging.Logger;
 
 public class Graphics implements Observer
 {
+    private static final Logger log = Logger.getLogger(Graphics.class.getName()); // imports logger
     private List<RailwayController> railwayControllers; // this holds state of railways
 
     // Constructor to pass the railway controllers
@@ -20,44 +22,13 @@ public class Graphics implements Observer
     // method called when graphics object is first created
     public void CreateObject()
     {
-        //System.out.println("Graphics object has been created"); LOG THIS
+        log.info("Graphics object has been created");
     }
 
     @Override
     public void update(List<TownInterface> towns, List<RailwayInterface> railways) // updates GUI every day
     {
         Integer day = App.day;
-
-
-        // handle towns
-        /*System.out.println("Updating GUI with the latest towns and railways:");
-        
-        System.out.println("Checking Towns Values: (GUI)");
-        System.out.println("THE CURRENT DAY IS " + day);
-        for (TownInterface town : towns) {
-            System.out.println(town.getName() + " - Population: " + town.getPopulation());
-            System.out.println("RESOURCES: " + town.getStockpile());
-        }
-        System.out.println("\n\n");*/ // uncomment when finshed debugging LOG THIS
-        
-
-        // handle railways
-        /*System.out.println("Checking Railways stats: (GUI)");
-        for (RailwayInterface railway : railways) {
-            System.out.println(railway.getRailInfo());
-        }
-        System.out.println("\n\n");*/ // uncomment when finished debugging
-
-
-        // Check the state of all railways
-        /*for (RailwayController controller : railwayControllers)   LOG ALL OF THIS
-        {
-            String railInfo = controller.getRailway().getRailInfo(); // Get the railway info
-            boolean isBuilt = controller.isBuilt(); // Check if the railway is built
-            System.out.println(railInfo + " - Status is built: " + isBuilt);
-        }
-
-        System.out.println("\n\n");*/
 
         processGoodsTransport(towns); // handle transportation of goods
 
@@ -123,9 +94,9 @@ public class Graphics implements Observer
                     Integer goodsToTransportFirst = Math.min(100, town1.getStockpile());
                     Integer goodsToTransportSecond = Math.min(100, town2.getStockpile());
 
-                    // Display stockpile before deduction       LOG THESE
-                    //System.out.println("Before transporting from " + town1.getName() + ": " + town1.getStockpile() + " goods.");
-                    //System.out.println("Before transporting from " + town2.getName() + ": " + town2.getStockpile() + " goods.");
+                    // log stockpile before deduction
+                    log.info("\n\n\nBefore transporting from " + town1.getName() + ": " + town1.getStockpile() + " goods.");
+                    log.info("Before transporting from " + town2.getName() + ": " + town2.getStockpile() + " goods.");
 
 
                     town1.reduceStockpile(goodsToTransportFirst);
@@ -134,9 +105,9 @@ public class Graphics implements Observer
                     town1.addGoodsTransported(goodsToTransportFirst);
                     town2.addGoodsTransported(goodsToTransportSecond);
 
-                    // Display stockpile after deduction        LOG THESE
-                    //System.out.println("After transporting from " + town1.getName() + ": " + town1.getStockpile() + " goods." + "Goods transported is " + town1.getGoodsTransported());
-                    //System.out.println("After transporting from " + town2.getName() + ": " + town2.getStockpile() + " goods." + "Goods transported is " + town2.getGoodsTransported());
+                    // Dlog stockpile after deduction
+                    log.info("After transporting from " + town1.getName() + ": " + town1.getStockpile() + " goods." + "Goods transported is " + town1.getGoodsTransported());
+                    log.info("After transporting from " + town2.getName() + ": " + town2.getStockpile() + " goods." + "Goods transported is " + town2.getGoodsTransported());
 
                 }
                 else // next deal with one way railways
@@ -149,14 +120,14 @@ public class Graphics implements Observer
                         // Odd day - Transport from first town
                         Integer goodsToTransport = Math.min(100, town1.getStockpile());
                             
-                        // Display stockpile before deduction       LOG THIS
-                        //System.out.println("Before transporting from " + town1.getName() + ": " + town1.getStockpile() + " goods.");
+                        // log stockpile before deduction
+                        log.info("\n\n\nBefore transporting from " + town1.getName() + ": " + town1.getStockpile() + " goods.");
 
                         town1.reduceStockpile(goodsToTransport);
                         town1.addGoodsTransported(goodsToTransport);
 
-                        // display stockpile after defuction        LOG THIS
-                        //System.out.println("After transporting from " + town1.getName() + ": " + town1.getStockpile() + " goods." + "Goods transported is " + town1.getGoodsTransported());
+                        // log stockpile after defuction
+                        log.info("After transporting from " + town1.getName() + ": " + town1.getStockpile() + " goods." + "Goods transported is " + town1.getGoodsTransported());
 
                         }
                     else
@@ -164,14 +135,14 @@ public class Graphics implements Observer
                         // Even day - Transport from second town
                         Integer goodsToTransport = Math.min(100, town2.getStockpile());
 
-                        // Display stockpile before deduction   LOG THIS
-                        //System.out.println("Before transporting from " + town2.getName() + ": " + town2.getStockpile() + " goods.");
+                        // log stockpile before deduction
+                        log.info("\n\n\nBefore transporting from " + town2.getName() + ": " + town2.getStockpile() + " goods.");
 
                         town2.reduceStockpile(goodsToTransport);
                         town2.addGoodsTransported(goodsToTransport);
                             
-                        // Display stockpile after deduction    LOG THIS
-                        //System.out.println("After transporting from " + town2.getName() + ": " + town2.getStockpile() + " goods." + "Goods transported is " + town2.getGoodsTransported());
+                        // log stockpile after deduction
+                        log.info("After transporting from " + town2.getName() + ": " + town2.getStockpile() + " goods." + "Goods transported is " + town2.getGoodsTransported());
                     }
                 }    
             }

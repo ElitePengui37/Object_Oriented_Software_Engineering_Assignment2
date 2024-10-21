@@ -1,7 +1,10 @@
 package main.java.edu.Factory;
 
+import java.util.logging.Logger;
+
 public class ConcreteTownObject implements TownInterface
 {
+    private static final Logger log = Logger.getLogger(ConcreteTownObject.class.getName()); // imports logger
     public Integer population;
     public String name;
     private Integer stockpile = 0;
@@ -17,7 +20,7 @@ public class ConcreteTownObject implements TownInterface
     public void setUpdatePopulation(Integer population) // setter to update population
     {
         this.population = population;
-        //System.out.println("Population of town " + name + " set to: " + population); LOG THIS
+        log.info("\nPopulation of town " + name + " set to: " + population + "\n");
     }
 
     @Override

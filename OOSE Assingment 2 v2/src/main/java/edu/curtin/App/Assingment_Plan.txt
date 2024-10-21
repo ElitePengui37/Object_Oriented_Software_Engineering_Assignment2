@@ -12,7 +12,7 @@ Total marks 45
 
 
 
-6 marks     Have a factory with dependency injection    (Use factories for creating Rail and town objects) Stored in list I assume
+6 marks     Have a factory with dependency injection    (Use factories for creating Rail and town objects) Stored in list
 
 
 7 marks     Use Observer pattern     (use observer patten in loop to notify changes to file/io and command line UI about changes in population and resources)
@@ -61,17 +61,17 @@ use observer pattern next to send from lists to file/io and command line (UI)
             rs: the number of single ended tracks that connect to that railway          ///
             rd: the number of double eneded tracks that connect to that railway         ///
             gs: goods in stockpile: (each person produces 1 good per day, each track can send 100 goods per day once sent they are consumed and no longer exist)        ///
-            gt: goods transported 
+            gt: goods transported       ///
 
-        After all this is calculated display it to the UI (terminal) & write updated data to file sumoutput.dot in the way asked by assingment (override file each day)
+        After all this is calculated display it to the UI (terminal) & write updated data to file sumoutput.dot in the way asked by assingment (override file each day)   ///
 
 during each event loop check if railway is built using the state pattern                ///
     state pattern has railway under construction   -->    railway completed             ///
     (it takes 5 days (5 seconds) to build a railway and during that time it is unable to send goods)                ///
 
 
-a single ended track sends up to 100 goods per day (if it can in a single direction) and direction reverses each day
-double ended tracks (railway-duplication) send up to 100 goods in both directions per day (no need to switch directions)
+a single ended track sends up to 100 goods per day (if it can in a single direction) and direction reverses each day  ///
+double ended tracks (railway-duplication) send up to 100 goods in both directions per day (no need to switch directions)   ///
 
 
 
@@ -84,7 +84,17 @@ plan for goods transport
 
 get rail info for all rails
 when going through list first check railway state is built          ///
-next look at first word in list to find town name and if day is even and look at last word of list to find if it 2 way deduct maximum 100 resources from first and second town
-if last word is false only take resources away from first town
+next look at first word in list to find town name and if day is even and look at last word of list to find if it 2 way deduct maximum 100 resources from first and second town   ///
+if last word is false only take resources away from first town ///
 
-if day is odd take resources from 2nd town
+if day is odd take resources from 2nd town ///
+
+
+
+
+
+
+next part
+    write criteria.md
+    UML State diaram
+    UML

@@ -10,6 +10,7 @@ import main.java.edu.Factory.*;
 import java.io.*;
 import java.util.List;
 import java.util.ArrayList;
+import java.util.logging.Logger;
 
 /**
  * Use this code to get started on Assignment 2. You are free to modify or replace this file as
@@ -17,6 +18,7 @@ import java.util.ArrayList;
  */
 public class App
 {
+    private static final Logger log = Logger.getLogger(App.class.getName()); // imports logger
     public static Integer day = 0;
 
     public static void main(String[] args)
@@ -65,11 +67,11 @@ public class App
                 System.out.println("\n");
 
 
-                // display all messages in msgList
-                //System.out.println("msgList items:"); LOG THIS TOO
+                // log all messages in msglist
+                log.info("msgList items:\n\n\n");
                 for (String item : msgList)
                 {
-                    //System.out.println(item); //LOG THIS LATER
+                    log.info(item);
                 }
 
 

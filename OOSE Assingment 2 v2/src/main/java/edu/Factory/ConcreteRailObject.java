@@ -1,7 +1,9 @@
 package main.java.edu.Factory;
+import java.util.logging.Logger;
 
 public class ConcreteRailObject implements RailwayInterface
 {
+    private static final Logger log = Logger.getLogger(ConcreteRailObject.class.getName()); // imports logger
     private boolean twoWay;
     private String town1;
     private String town2;
@@ -18,7 +20,7 @@ public class ConcreteRailObject implements RailwayInterface
     public void setRailwayDuplication() // makes rail bidirectional
     {
         this.twoWay = true;  // Directly set to true
-        //System.out.println("Railway is now two-way."); LOG THIS
+        log.info("Railway is now two-way.\n");
     }
 
 

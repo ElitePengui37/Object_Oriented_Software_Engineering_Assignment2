@@ -1,7 +1,10 @@
 package main.java.edu.State;
 
+import java.util.logging.Logger;
+
 public class BuildingState implements RailState
 {
+    private static final Logger log = Logger.getLogger(BuildingState.class.getName()); // imports logger
     private Integer daysLeft = 5; // the number of days left until railway is BUILT
 
 
@@ -11,12 +14,12 @@ public class BuildingState implements RailState
         if(daysLeft > 0)
         {
             daysLeft--; // decrement days left every time build is called in the object factory
-            //System.out.println("DEBUG   Railways being built days remaining: " + daysLeft);  LOG THIS
+            log.info("\n\n\nDEBUG   Railways being built days remaining: " + daysLeft);
         }
         else if(daysLeft <= 0)
         {
             controller.setState(new BuiltState()); // if build is called transition state to built if days have expired
-            //System.out.println("DEBUG      Railway state transition to BUILT");   LOG THIS
+            log.info("\n\n\nDEBUG      Railway state transition to BUILT");
         }
     }
 

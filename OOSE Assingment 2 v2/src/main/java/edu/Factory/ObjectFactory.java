@@ -5,9 +5,11 @@ import main.java.edu.State.RailwayController;
 import main.java.edu.State.BuildingState;
 import java.util.List;
 import java.util.ArrayList;
+import java.util.logging.Logger;
 
 public class ObjectFactory
 {
+    private static final Logger log = Logger.getLogger(ObjectFactory.class.getName()); // imports logger
     private List<String> messages;   // msgList
     private final List<TownInterface> towns = new ArrayList<>();   // Store towns
     private final List<RailwayInterface> railways = new ArrayList<>(); // Store railways
@@ -42,10 +44,10 @@ public class ObjectFactory
 
                     TownInterface newTown = new ConcreteTownObject(townName, townPopulation); // create town object
                     towns.add(newTown);
-                    //System.out.println("New town founded!"); // LOG THIS
+                    log.info("\nNew town founded!\n");
                 } catch (NumberFormatException e)
                 {
-                    // LOG HERE ABOUT INVALID number
+                    log.warning("Invalid unable to convert to Integer, invalid");
                 }
 
 
@@ -59,7 +61,6 @@ public class ObjectFactory
                 {
                     Integer townPopulation = Integer.parseInt(parts[2]);
                     
-                    //System.out.println("DEBUG CHECKING TOWN POPULATION FOR TOWN " + townName + " POPULATION " + townPopulation); LOG THIS
                     for(TownInterface town : towns) // find town and update population
                     {
                         if (town instanceof ConcreteTownObject && ((ConcreteTownObject)town).getName().equals(townName)) // update town population only if town is found (some town names may be error names)
@@ -69,7 +70,7 @@ public class ObjectFactory
                     }
                 } catch (NumberFormatException e)
                 {
-                    // LOG HERE ABOUT INVALID NUMBER
+                    log.warning("Invalid unable to convert to Integer, invalid");
                 }
             }
             else if(action.equals("railway-construction") && parts.length == 3) // railway cases part 0 is railway-construction, part 1 and 2 are townnames
@@ -103,26 +104,6 @@ public class ObjectFactory
                     System.out.println("No railway found to duplicate.");
                 }
             }
-
-            // Display all railways after processing the messages used for debugging
-            //System.out.println("Current list of railways:");
-            /*for (RailwayInterface rail : railways)
-            {
-                if (rail instanceof ConcreteRailObject)
-                {
-                    System.out.println(((ConcreteRailObject) rail).getRailInfo());      LOG THIS
-                }
-            }*/
-
-            // debugging block use this to see town statistics in town list
-            /*System.out.println("\n\nDebug town list: ");
-            for(TownInterface town : towns)
-            {
-                if (town instanceof ConcreteTownObject) {
-                    ConcreteTownObject concreteTown = (ConcreteTownObject) town;
-                    System.out.println("Town: " + concreteTown.getName() + ", Population: " + concreteTown.population);     LOG THIS
-                }
-            }*/
         }
 
         // Process railway state updates at the end of the day (build progress)

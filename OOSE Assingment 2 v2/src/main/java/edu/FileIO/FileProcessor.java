@@ -8,9 +8,11 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
+import java.util.logging.Logger;
 
 public class FileProcessor implements Observer
 {
+    private static final Logger log = Logger.getLogger(FileProcessor.class.getName()); // imports logger
     private List<RailwayController> railwayControllers; // this holds state of railways
 
     // Constructor to pass the railway controllers
@@ -22,7 +24,7 @@ public class FileProcessor implements Observer
     // method that is called when file processor is first created
     public void CreateFileObject()
     {
-        //System.out.println("File object created"); //LOG THIS
+        log.info("File object created");
     }
 
     @Override
@@ -85,25 +87,7 @@ public class FileProcessor implements Observer
         catch (IOException e) 
         {
             System.out.println("An error has occured in file writing: " + e);
-            // LOG ERROR HERE
+            log.severe("File Processing Error " + e);
         }
-
-       /* System.out.println("Updating file with the latest towns and railways:"); LOG ALL OF THiS
-        
-        // Implement file writing logic here later
-        System.out.println("Checking Towns statss: (FILE)");
-        for (TownInterface town : towns) {
-            // Write town data to file
-            System.out.println(town.getName() + " - Population: " + town.getPopulation());
-            System.out.println("RESOURCES : " + town.getStockpile());
-        }
-        System.out.println("\n\n");
-        
-        System.out.println("Checking railsways stats: (FILE)"); LOG ALL OF THIS
-        for (RailwayInterface railway : railways) {
-            // Write railway data to file
-            System.out.println(railway.getRailInfo());
-        }
-        System.out.println("\n\n");*/ // uncomment when finised debugging
     }
 }
