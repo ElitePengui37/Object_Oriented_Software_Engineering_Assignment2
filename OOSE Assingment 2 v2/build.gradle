@@ -14,7 +14,7 @@ dependencies {
 }
 
 application {
-    mainClass = 'edu.curtin.App.App'
+    mainClass = 'edu.curtin.app.App'
 }
 
 compileJava {

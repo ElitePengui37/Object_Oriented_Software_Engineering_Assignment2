@@ -1,5 +1,5 @@
 //package edu.curtin.oose2024s2.assignment2;
-package edu.curtin.App;
+package edu.curtin.app;
 
 import main.java.edu.gui.Graphics;
 import main.java.edu.fileio.FileProcessor;

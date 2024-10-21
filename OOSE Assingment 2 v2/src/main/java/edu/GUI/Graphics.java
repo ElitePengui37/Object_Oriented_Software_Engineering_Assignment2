@@ -4,7 +4,7 @@ import main.java.edu.observer.Observer;
 import main.java.edu.factory.TownInterface;
 import main.java.edu.factory.RailwayInterface;
 import main.java.edu.state.RailwayController;
-import edu.curtin.App.*;
+import edu.curtin.app.*;
 import java.util.List;
 import java.util.logging.Logger;
 

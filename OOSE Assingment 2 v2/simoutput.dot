@@ -1,10 +1,16 @@
 graph Towns {
-	Marston_Ridsell
-	Porbottom
-	Lesser_Nummill
-	Foddercastle
+	Mizenness
+	Narrow_Chapcester
+	New_Applecot
+	Parhampton
+	Charlholm
 
-	Porbottom -- Marston_Ridsell
-	Marston_Ridsell -- Lesser_Nummill [color="black:black"]
-	Lesser_Nummill -- Porbottom [style="dashed",color="black:black"]
+	Mizenness -- Narrow_Chapcester [color="black:black"]
+	New_Applecot -- Narrow_Chapcester [color="black:black"]
+	New_Applecot -- Mizenness
+	New_Applecot -- Parhampton
+	Mizenness -- Charlholm
+	Parhampton -- Charlholm [color="black:black"]
+	Charlholm -- Narrow_Chapcester [style="dashed"]
+	Narrow_Chapcester -- Parhampton [style="dashed"]
 }
