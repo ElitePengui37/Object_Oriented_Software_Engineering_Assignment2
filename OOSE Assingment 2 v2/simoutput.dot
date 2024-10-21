@@ -1,21 +1,23 @@
 graph Towns {
-	Peyminster
-	Low_Tarholme
-	Mudport
-	Stoney_Dewholt
-	Sodhampton
-	Nagbrough
-	Drafttham
+	Further_Lilyfold
+	Hook_Crickbridge
+	Hook_Shepnor
+	East_Niggleham
+	South_Badnor
+	Larch_Dickfold
+	East_Blickhurst
+	Chipping_Gloskirk
 
-	Stoney_Dewholt -- Peyminster
-	Nagbrough -- Mudport
-	Low_Tarholme -- Peyminster
-	Sodhampton -- Low_Tarholme
-	Mudport -- Sodhampton
-	Low_Tarholme -- Mudport
-	Sodhampton -- Peyminster [color="black:black"]
-	Sodhampton -- Nagbrough [color="black:black"]
-	Drafttham -- Low_Tarholme [color="black:black"]
-	Stoney_Dewholt -- Sodhampton [style="dashed"]
-	Stoney_Dewholt -- Nagbrough [style="dashed",color="black:black"]
+	Further_Lilyfold -- Hook_Crickbridge
+	Hook_Crickbridge -- Hook_Shepnor
+	Hook_Crickbridge -- Further_Lilyfold
+	Hook_Crickbridge -- East_Niggleham
+	Hook_Shepnor -- Further_Lilyfold [color="black:black"]
+	Further_Lilyfold -- East_Niggleham [color="black:black"]
+	South_Badnor -- East_Niggleham
+	Further_Lilyfold -- Larch_Dickfold
+	Larch_Dickfold -- Hook_Crickbridge
+	Larch_Dickfold -- East_Niggleham [color="black:black"]
+	East_Blickhurst -- Hook_Shepnor [color="black:black"]
+	South_Badnor -- Further_Lilyfold [style="dashed"]
 }

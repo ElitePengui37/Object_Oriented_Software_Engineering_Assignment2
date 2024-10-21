@@ -20,7 +20,7 @@ public class Graphics implements Observer
     }
     
     // method called when graphics object is first created
-    public void CreateObject()
+    public void createObject()
     {
         log.info("Graphics object has been created");
     }

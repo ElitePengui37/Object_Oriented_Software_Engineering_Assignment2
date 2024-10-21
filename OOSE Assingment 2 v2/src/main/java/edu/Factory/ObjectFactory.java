@@ -87,10 +87,8 @@ public class ObjectFactory
             }
             else if(action.equals("railway-duplication") && parts.length == 3) // handle the modification of rail object when made 2 way
             {
-                String town1 = parts[1];
-                String town2 = parts[2];
                 
-                if (!railways.isEmpty()) // prevents railway duplication if no railways exist yet
+                if (railways.size() > 0) // prevents railway duplication if no railways exist yet
                 {
                     RailwayInterface lastRail = railways.get(railways.size() - 1);
                     lastRail.setRailwayDuplication(); // railway is set to 2 way

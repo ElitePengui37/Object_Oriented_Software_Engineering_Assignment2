@@ -22,7 +22,7 @@ public class FileProcessor implements Observer
     }
     
     // method that is called when file processor is first created
-    public void CreateFileObject()
+    public void createFileObject()
     {
         log.info("File object created");
     }

@@ -38,8 +38,8 @@ public class App
         FileProcessor FileIO = new FileProcessor(railwayControllers);
 
         // call package objects to check if they been imported properly
-        GUI.CreateObject();
-        FileIO.CreateFileObject();
+        GUI.createObject();
+        FileIO.createFileObject();
 
         Subject subject = new Subject(); // observer pattern subject object
 

@@ -19,8 +19,9 @@ public class ConcreteTownObject implements TownInterface
     @Override
     public void setUpdatePopulation(Integer population) // setter to update population
     {
+        String logMsg = "\nPopulation of town " + name + " set to: " + population + "\n";
         this.population = population;
-        log.info("\nPopulation of town " + name + " set to: " + population + "\n");
+        log.info(logMsg);
     }
 
     @Override
