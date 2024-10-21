@@ -19,7 +19,7 @@ public class Graphics implements Observer
     
     public void CreateObject()
     {
-        System.out.println("Graphics object has been created");
+        //System.out.println("Graphics object has been created"); LOG THIS
     }
 
     @Override
@@ -90,7 +90,7 @@ public class Graphics implements Observer
                 }
             }
 
-            System.out.println(town.getName() + "    p:" + town.getPopulation() + "    rs:" + oneWayRail + "    rd:" + twoWayRail + "    gs:" + town.getStockpile() + "    gt:" + town.getGoodsTransported());
+            System.out.println(town.getName() + "\tp:" + town.getPopulation() + "\trs:" + oneWayRail + "\trd:" + twoWayRail + "\tgs:" + town.getStockpile() + "\tgt:" + town.getGoodsTransported());
 
             town.resetGoodsTransported(); // reset all goods transported at the end of the day to prevent previous days goods from being counted
         }

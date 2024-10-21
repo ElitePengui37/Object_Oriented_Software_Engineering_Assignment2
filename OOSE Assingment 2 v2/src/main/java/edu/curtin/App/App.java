@@ -35,7 +35,7 @@ public class App
 
         // create objects in from packages
         Graphics GUI = new Graphics(railwayControllers);
-        FileProcessor FileIO = new FileProcessor();
+        FileProcessor FileIO = new FileProcessor(railwayControllers);
 
         // call package objects to check if they been imported properly
         GUI.CreateObject();
@@ -69,7 +69,7 @@ public class App
                 System.out.println("\n\n\nChecking msgList items");
                 for (String item : msgList)
                 {
-                    System.out.println(item);
+                    System.out.println(item); //LOG THIS LATER
                 }
 
                 

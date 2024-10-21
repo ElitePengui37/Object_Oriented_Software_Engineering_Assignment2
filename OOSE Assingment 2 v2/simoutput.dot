@@ -1,0 +1,12 @@
+graph Towns {
+	Perlow
+	West_Hawson
+	Stoney_Mockwick
+	Middle_Pupholme
+	Further_Dimlow
+	Market_Badcliff
+
+West_Hawson -- Perlow [color="black:black"]
+Stoney_Mockwick -- West_Hawson [style="dashed"]
+Stoney_Mockwick -- Market_Badcliff [style="dashed",color="black:black"]
+}
