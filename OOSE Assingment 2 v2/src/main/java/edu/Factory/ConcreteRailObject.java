@@ -6,7 +6,8 @@ public class ConcreteRailObject implements RailwayInterface
     private String town1;
     private String town2;
 
-    public ConcreteRailObject(String town1, String town2)
+
+    public ConcreteRailObject(String town1, String town2) // creates new rail object
     {
         this.town1 = town1;
         this.town2 = town2;
@@ -14,7 +15,7 @@ public class ConcreteRailObject implements RailwayInterface
     }
 
     @Override
-    public void setRailwayDuplication()
+    public void setRailwayDuplication() // makes rail bidirectional
     {
         this.twoWay = true;  // Directly set to true
         //System.out.println("Railway is now two-way."); LOG THIS
@@ -22,8 +23,8 @@ public class ConcreteRailObject implements RailwayInterface
 
 
 
-    @Override // retrieves all info needed for rail by observer pattern
-    public String getRailInfo()
+    @Override
+    public String getRailInfo() // retrieves some info needed for rail by observer pattern (town names and rail direction)
     {
         return town1 + " " + town2 + " " + twoWay;
     }

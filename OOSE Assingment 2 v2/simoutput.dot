@@ -1,0 +1,13 @@
+graph Towns {
+	Gristleside
+	Stoke_Greenchurch
+	Lower_Titchmill
+	Ledenholme
+	Greater_Moxsey
+	Kingston_Wellingside
+
+	Stoke_Greenchurch -- Gristleside [color="black:black"]
+	Lower_Titchmill -- Stoke_Greenchurch
+	Gristleside -- Lower_Titchmill
+	Lower_Titchmill -- Greater_Moxsey [style="dashed"]
+}

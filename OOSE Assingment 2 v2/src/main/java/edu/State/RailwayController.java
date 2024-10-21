@@ -13,28 +13,28 @@ public class RailwayController
         this.state = new BuildingState();
     }
 
-    public void startBuilding()
+    public void startBuilding() // method displays time left in logger if called whilst building otherwise displays finished building
     {
         state.build(this);
     }
 
-    public void setState(RailState state)
+    public void setState(RailState state) // state setter used to go back to building state when making bidirectional rails
     {
         this.state = state;
     }
 
-    public boolean isBuilt()
+    public boolean isBuilt() // checks if rail is built used mostly in observer pattern
     {
         return state.isBuilt();
     }
 
-    public void updateTwoWay()
+    public void updateTwoWay() // goes back into building state when rail is upgraded
     {
         this.setState(new BuildingState());
     }
 
-    public RailwayInterface getRailway()
+    public RailwayInterface getRailway() // Provide access to the railway managed by this controller
     {
-        return railway;  // Provide access to the railway managed by this controller
+        return railway;
     }
 }

@@ -11,19 +11,20 @@ public class Graphics implements Observer
 {
     private List<RailwayController> railwayControllers; // this holds state of railways
 
-        // Constructor to pass the railway controllers
+    // Constructor to pass the railway controllers
     public Graphics(List<RailwayController> controllers) 
     {
         this.railwayControllers = controllers;
     }
     
+    // method called when graphics object is first created
     public void CreateObject()
     {
         //System.out.println("Graphics object has been created"); LOG THIS
     }
 
     @Override
-    public void update(List<TownInterface> towns, List<RailwayInterface> railways) // still a very barebones implementation update it later
+    public void update(List<TownInterface> towns, List<RailwayInterface> railways) // updates GUI every day
     {
         Integer day = App.day;
 
@@ -37,7 +38,7 @@ public class Graphics implements Observer
             System.out.println(town.getName() + " - Population: " + town.getPopulation());
             System.out.println("RESOURCES: " + town.getStockpile());
         }
-        System.out.println("\n\n");*/ // uncomment when finshed debugging
+        System.out.println("\n\n");*/ // uncomment when finshed debugging LOG THIS
         
 
         // handle railways
@@ -49,7 +50,7 @@ public class Graphics implements Observer
 
 
         // Check the state of all railways
-        /*for (RailwayController controller : railwayControllers)
+        /*for (RailwayController controller : railwayControllers)   LOG ALL OF THIS
         {
             String railInfo = controller.getRailway().getRailInfo(); // Get the railway info
             boolean isBuilt = controller.isBuilt(); // Check if the railway is built
@@ -58,15 +59,15 @@ public class Graphics implements Observer
 
         System.out.println("\n\n");*/
 
-        processGoodsTransport(towns);
+        processGoodsTransport(towns); // handle transportation of goods
 
 
-        displayRailConnectionCount(towns, railways);
+        displayRailConnectionCount(towns, railways); // calculate how many one and two way rails exist for each town
         System.out.println("\n\n");
     }
 
 
-    public void displayRailConnectionCount(List<TownInterface> towns, List<RailwayInterface> railways)
+    public void displayRailConnectionCount(List<TownInterface> towns, List<RailwayInterface> railways) // calculate how many one and two way rails each town has
     {
         for(TownInterface town : towns)
         {
@@ -90,7 +91,7 @@ public class Graphics implements Observer
                 }
             }
 
-            System.out.println(town.getName() + "\tp:" + town.getPopulation() + "\trs:" + oneWayRail + "\trd:" + twoWayRail + "\tgs:" + town.getStockpile() + "  \tgt:" + town.getGoodsTransported());
+            System.out.println(town.getName() + "\tp:" + town.getPopulation() + "\trs:" + oneWayRail + "\trd:" + twoWayRail + "\tgs:" + town.getStockpile() + "  \tgt:" + town.getGoodsTransported()); // main stats
 
             town.resetGoodsTransported(); // reset all goods transported at the end of the day to prevent previous days goods from being counted
         }

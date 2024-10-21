@@ -27,11 +27,9 @@ public class App
         //TownsInput inp = new TownsInput(123);  // Seed for the random number generator
         //inp.setErrorProbability(0.0);
 
-        // object factory
-        ObjectFactory factory = new ObjectFactory();
+        ObjectFactory factory = new ObjectFactory(); // object factory
 
-        // Retrieve the list of RailwayController from the factory for graphics object
-        List<RailwayController> railwayControllers = factory.getRailwayControllers();
+        List<RailwayController> railwayControllers = factory.getRailwayControllers(); // Retrieve railway controller list from the factory for graphics object (allows graphics object see state of railway)
 
         // create objects in from packages
         Graphics GUI = new Graphics(railwayControllers);
@@ -41,9 +39,7 @@ public class App
         GUI.CreateObject();
         FileIO.CreateFileObject();
 
-
-        // observer pattern subject object
-        Subject subject = new Subject();
+        Subject subject = new Subject(); // observer pattern subject object
 
         // add GUI and FileIO objects to the subject
         subject.addObserver(GUI);
@@ -55,10 +51,10 @@ public class App
             while(System.in.available() == 0)
             {
 
-                // For illustration purposes -- this just prints out the messages as they come in later put this into the gui part.
                 System.out.println("---");
-                System.out.println("DAY " + day +":\n"); // display day later move this into the GUI object when observer pattern has been implemented
-                String msg = inp.nextMessage();
+                System.out.println("DAY " + day +":\n"); // display day
+                
+                String msg = inp.nextMessage(); // retrieve first message
                 
                 while(msg != null) // display all of todays messages and add theem to a message list
                 {
@@ -68,24 +64,23 @@ public class App
                 }
                 System.out.println("\n");
 
-                //System.out.println("\n\n\nChecking msgList items");
+
+                // display all messages in msgList
+                //System.out.println("msgList items:"); LOG THIS TOO
                 for (String item : msgList)
                 {
                     //System.out.println(item); //LOG THIS LATER
                 }
 
-                
-                // Inject message list into factory every timestep
-                factory.setMessages(msgList);
 
-                // Process the messages
+                factory.setMessages(msgList); // Inject updated message list into factory every timestep
+
                 factory.processMessages();
 
                 // notify observers of changes
-                subject.receiveUpdate(factory.getTowns(), factory.getRailways()); // get town new info from object factory lists
+                subject.receiveUpdate(factory.getTowns(), factory.getRailways()); // get new info from object factory lists
 
-                // clear megList
-                msgList.clear();
+                msgList.clear(); // clear msgList to prevent old messages going into next day
 
                 // Wait 1 second
                 try

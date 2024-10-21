@@ -2,54 +2,56 @@ package main.java.edu.Factory;
 
 public class ConcreteTownObject implements TownInterface
 {
-    public Integer population;  // Public variable
+    public Integer population;
     public String name;
-    private Integer stockpile = 0; // 0 resources by default
+    private Integer stockpile = 0;
     private Integer goodsTransported = 0;
 
-    public ConcreteTownObject(String name, Integer population) { 
+    public ConcreteTownObject(String name, Integer population) // creates town object with name ond population
+    {
         this.population = population;
         this.name = name;
     }
 
     @Override
-    public void setUpdatePopulation(Integer population) {
+    public void setUpdatePopulation(Integer population) // setter to update population
+    {
         this.population = population;
         //System.out.println("Population of town " + name + " set to: " + population); LOG THIS
     }
 
     @Override
-    public String getName()
+    public String getName() // town name getter
     {
         return name;
     }
 
     @Override
-    public Integer getPopulation()
+    public Integer getPopulation() // town population getter
     {
         return population;
     }
 
     @Override
-    public Integer getStockpile()
+    public Integer getStockpile() // town stockpile getter
     {
         return stockpile;
     }
 
     @Override
-    public void setStockpile()
+    public void setStockpile() // setter to increment daily stockpile for town
     {
         stockpile += population; // produce 1 resource per 1 population per 1 day
     }
 
     @Override
-    public void reduceStockpile(Integer reduction)
+    public void reduceStockpile(Integer reduction) // setter to reduce stockpile to simulate the movement of goods
     {
         this.stockpile -= reduction;
     }
 
     @Override
-    public void addGoodsTransported(Integer goods) 
+    public void addGoodsTransported(Integer goods) // goods transported setter used by graphics observer
     {
         goodsTransported += goods;
     }
@@ -61,7 +63,7 @@ public class ConcreteTownObject implements TownInterface
     }
 
     @Override
-    public Integer getGoodsTransported() 
+    public Integer getGoodsTransported() // getter for gt for observer pattern
     {
         return goodsTransported;
     }

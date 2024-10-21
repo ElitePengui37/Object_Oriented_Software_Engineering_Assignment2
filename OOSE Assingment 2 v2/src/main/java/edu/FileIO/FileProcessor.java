@@ -19,13 +19,14 @@ public class FileProcessor implements Observer
         this.railwayControllers = controllers;
     }
     
+    // method that is called when file processor is first created
     public void CreateFileObject()
     {
         //System.out.println("File object created"); //LOG THIS
     }
 
     @Override
-    public void update(List<TownInterface> towns, List<RailwayInterface> railways) // barebones implementation make it better later
+    public void update(List<TownInterface> towns, List<RailwayInterface> railways) // updates and writes to file every time it is called
     {
         String fileName = "simoutput.dot";
 
@@ -46,10 +47,13 @@ public class FileProcessor implements Observer
             for (RailwayController controller : railwayControllers) // writing rail info
             {
                 String railCheck = controller.getRailway().getRailInfo(); // Get the railway info
+
+                // break railCheck up into its parts
                 String[] railStats = railCheck.split(" ");
                 String firstTown = railStats[0];
                 String secondTown = railStats[1];
                 boolean twoWay = Boolean.parseBoolean(railStats[2]);
+
                 boolean isBuilt = controller.isBuilt(); // Check if the railway is built
 
                 if (twoWay) // write to file based on given syntax
@@ -81,7 +85,7 @@ public class FileProcessor implements Observer
         catch (IOException e) 
         {
             System.out.println("An error has occured in file writing: " + e);
-            // LOG ERROR HEREs
+            // LOG ERROR HERE
         }
 
        /* System.out.println("Updating file with the latest towns and railways:"); LOG ALL OF THiS
