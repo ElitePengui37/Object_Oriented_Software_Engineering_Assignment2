@@ -54,6 +54,13 @@ public class ConcreteTownObject implements TownInterface
         goodsTransported += goods;
     }
 
+    @Override
+    public void resetGoodsTransported() // resets gt to 0 at the end of each day to prevent gt from maving into next day
+    {
+        this.goodsTransported = 0;
+    }
+
+    @Override
     public Integer getGoodsTransported() 
     {
         return goodsTransported;

@@ -90,7 +90,9 @@ public class Graphics implements Observer
                 }
             }
 
-            System.out.println(town.getName() + " p:" + town.getPopulation() + " rs:" + oneWayRail + " rd:" + twoWayRail + " gs:" + town.getStockpile());
+            System.out.println(town.getName() + "    p:" + town.getPopulation() + "    rs:" + oneWayRail + "    rd:" + twoWayRail + "    gs:" + town.getStockpile() + "    gt:" + town.getGoodsTransported());
+
+            town.resetGoodsTransported(); // reset all goods transported at the end of the day to prevent previous days goods from being counted
         }
     }
 
@@ -114,72 +116,63 @@ public class Graphics implements Observer
                 TownInterface town2 = findTownObj(towns, secondTownName);
 
 
-                if(town1 != null && town2 != null) // if statement for debugging remove later
+                if(twoWay) // handle bidirectional railways
                 {
-                    if(twoWay) // handle bidirectional railways
+                    // Deduct up to 100 resources from both towns
+                    Integer goodsToTransportFirst = Math.min(100, town1.getStockpile());
+                    Integer goodsToTransportSecond = Math.min(100, town2.getStockpile());
+
+                    // Display stockpile before deduction       LOG THESE
+                    //System.out.println("Before transporting from " + town1.getName() + ": " + town1.getStockpile() + " goods.");
+                    //System.out.println("Before transporting from " + town2.getName() + ": " + town2.getStockpile() + " goods.");
+
+
+                    town1.reduceStockpile(goodsToTransportFirst);
+                    town2.reduceStockpile(goodsToTransportSecond);
+
+                    town1.addGoodsTransported(goodsToTransportFirst);
+                    town2.addGoodsTransported(goodsToTransportSecond);
+
+                    // Display stockpile after deduction        LOG THESE
+                    //System.out.println("After transporting from " + town1.getName() + ": " + town1.getStockpile() + " goods." + "Goods transported is " + town1.getGoodsTransported());
+                    //System.out.println("After transporting from " + town2.getName() + ": " + town2.getStockpile() + " goods." + "Goods transported is " + town2.getGoodsTransported());
+
+                }
+                else // next deal with one way railways
+                {
+                    // For one-way rail, check if the day is odd or even
+                    Integer day = App.day;
+
+                    if (day % 2 != 0) 
                     {
-                        // Deduct up to 100 resources from both towns
-                        Integer goodsToTransportFirst = Math.min(100, town1.getStockpile());
-                        Integer goodsToTransportSecond = Math.min(100, town2.getStockpile());
+                        // Odd day - Transport from first town
+                        Integer goodsToTransport = Math.min(100, town1.getStockpile());
+                            
+                        // Display stockpile before deduction       LOG THIS
+                        //System.out.println("Before transporting from " + town1.getName() + ": " + town1.getStockpile() + " goods.");
 
-                        // Display stockpile before deduction
-                        System.out.println("Before transporting from " + town1.getName() + ": " + town1.getStockpile() + " goods.");
-                        System.out.println("Before transporting from " + town2.getName() + ": " + town2.getStockpile() + " goods.");
+                        town1.reduceStockpile(goodsToTransport);
+                        town1.addGoodsTransported(goodsToTransport);
 
+                        // display stockpile after defuction        LOG THIS
+                        //System.out.println("After transporting from " + town1.getName() + ": " + town1.getStockpile() + " goods." + "Goods transported is " + town1.getGoodsTransported());
 
-                        town1.reduceStockpile(goodsToTransportFirst);
-                        town2.reduceStockpile(goodsToTransportSecond);
+                        }
+                    else
+                    {
+                        // Even day - Transport from second town
+                        Integer goodsToTransport = Math.min(100, town2.getStockpile());
 
-                        // Display stockpile after deduction
-                        System.out.println("After transporting from " + town1.getName() + ": " + town1.getStockpile() + " goods.");
-                        System.out.println("After transporting from " + town2.getName() + ": " + town2.getStockpile() + " goods.");
+                        // Display stockpile before deduction   LOG THIS
+                        //System.out.println("Before transporting from " + town2.getName() + ": " + town2.getStockpile() + " goods.");
 
-                        town1.addGoodsTransported(goodsToTransportFirst);
-                        town2.addGoodsTransported(goodsToTransportSecond);
+                        town2.reduceStockpile(goodsToTransport);
+                        town2.addGoodsTransported(goodsToTransport);
+                            
+                        // Display stockpile after deduction    LOG THIS
+                        //System.out.println("After transporting from " + town2.getName() + ": " + town2.getStockpile() + " goods." + "Goods transported is " + town2.getGoodsTransported());
                     }
-                    else // next deal with one way railways
-                    {
-                        // For one-way rail, check if the day is odd or even
-                        Integer day = App.day;
-
-                        if (day % 2 != 0) 
-                        {
-                            // Odd day - Transport from first town
-                            Integer goodsToTransport = Math.min(100, town1.getStockpile());
-                            
-                            // Display stockpile before deduction
-                            System.out.println("Before transporting from " + town1.getName() + ": " + town1.getStockpile() + " goods.");
-
-                            town1.reduceStockpile(goodsToTransport);
-
-                            // display stockpile after defuction
-                            System.out.println("After transporting from " + town1.getName() + ": " + town1.getStockpile() + " goods.");
-
-                            town1.addGoodsTransported(goodsToTransport);
-                            System.out.println("Transported " + goodsToTransport + " from " + town1.getName());
-                        }
-                        else
-                        {
-                            // Even day - Transport from second town
-                            Integer goodsToTransport = Math.min(100, town2.getStockpile());
-
-                            // Display stockpile before deduction
-                            System.out.println("Before transporting from " + town2.getName() + ": " + town2.getStockpile() + " goods.");
-
-                            town2.reduceStockpile(goodsToTransport);
-                            
-                            // Display stockpile after deduction
-                            System.out.println("After transporting from " + town2.getName() + ": " + town2.getStockpile() + " goods.");
-
-                            town2.addGoodsTransported(goodsToTransport);
-                            System.out.println("Transported " + goodsToTransport + " from " + town2.getName());
-                        }
-                    }    
-                }
-                else
-                {
-                    System.out.println("Town Could not be retrived and is null");
-                }
+                }    
             }
         }
     }
