@@ -1,47 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.3.0" timestamp="2024-10-21T15:16:47.625">
-<file name="/home/sysadmin/Documents/GitHub/OOSE_Assignment2/OOSE Assingment 2 v2/src/main/java/edu/FileIO/FileProcessor.java">
-<violation beginline="90" endline="90" begincolumn="13" endcolumn="54" rule="GuardLogStatement" ruleset="Best Practices" package="main.java.edu.fileio" class="FileProcessor" method="update" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
-Use lambda expressions (() -&gt; ...) when building a log message from variable values.
-</violation>
-</file>
-<file name="/home/sysadmin/Documents/GitHub/OOSE_Assignment2/OOSE Assingment 2 v2/src/main/java/edu/GUI/Graphics.java">
-<violation beginline="31" endline="31" begincolumn="17" endcolumn="20" rule="UnusedLocalVariable" ruleset="Best Practices" package="main.java.edu.gui" class="Graphics" method="update" variable="day" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
-Avoid unused local variables such as 'day'.
-</violation>
-<violation beginline="98" endline="98" begincolumn="21" endcolumn="125" rule="GuardLogStatement" ruleset="Best Practices" package="main.java.edu.gui" class="Graphics" method="processGoodsTransport" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
-Use lambda expressions (() -&gt; ...) when building a log message from variable values.
-</violation>
-<violation beginline="99" endline="99" begincolumn="21" endcolumn="119" rule="GuardLogStatement" ruleset="Best Practices" package="main.java.edu.gui" class="Graphics" method="processGoodsTransport" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
-Use lambda expressions (() -&gt; ...) when building a log message from variable values.
-</violation>
-<violation beginline="109" endline="109" begincolumn="21" endcolumn="174" rule="GuardLogStatement" ruleset="Best Practices" package="main.java.edu.gui" class="Graphics" method="processGoodsTransport" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
-Use lambda expressions (() -&gt; ...) when building a log message from variable values.
-</violation>
-<violation beginline="110" endline="110" begincolumn="21" endcolumn="174" rule="GuardLogStatement" ruleset="Best Practices" package="main.java.edu.gui" class="Graphics" method="processGoodsTransport" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
-Use lambda expressions (() -&gt; ...) when building a log message from variable values.
-</violation>
-<violation beginline="118" endline="146" begincolumn="21" endcolumn="22" rule="ConfusingTernary" ruleset="Code Style" package="main.java.edu.gui" class="Graphics" method="processGoodsTransport" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_codestyle.html#confusingternary" priority="3">
-Avoid if (x != y) ..; else ..;
-</violation>
-<violation beginline="124" endline="124" begincolumn="25" endcolumn="129" rule="GuardLogStatement" ruleset="Best Practices" package="main.java.edu.gui" class="Graphics" method="processGoodsTransport" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
-Use lambda expressions (() -&gt; ...) when building a log message from variable values.
-</violation>
-<violation beginline="130" endline="130" begincolumn="25" endcolumn="178" rule="GuardLogStatement" ruleset="Best Practices" package="main.java.edu.gui" class="Graphics" method="processGoodsTransport" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
-Use lambda expressions (() -&gt; ...) when building a log message from variable values.
-</violation>
-<violation beginline="139" endline="139" begincolumn="25" endcolumn="129" rule="GuardLogStatement" ruleset="Best Practices" package="main.java.edu.gui" class="Graphics" method="processGoodsTransport" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
-Use lambda expressions (() -&gt; ...) when building a log message from variable values.
-</violation>
-<violation beginline="145" endline="145" begincolumn="25" endcolumn="178" rule="GuardLogStatement" ruleset="Best Practices" package="main.java.edu.gui" class="Graphics" method="processGoodsTransport" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
-Use lambda expressions (() -&gt; ...) when building a log message from variable values.
-</violation>
-</file>
-<file name="/home/sysadmin/Documents/GitHub/OOSE_Assignment2/OOSE Assingment 2 v2/src/main/java/edu/State/BuildingState.java">
-<violation beginline="17" endline="17" begincolumn="13" endcolumn="88" rule="GuardLogStatement" ruleset="Best Practices" package="main.java.edu.state" class="BuildingState" method="build" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
-Use lambda expressions (() -&gt; ...) when building a log message from variable values.
-</violation>
-</file>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.3.0" timestamp="2024-10-21T15:48:02.385">
 <file name="/home/sysadmin/Documents/GitHub/OOSE_Assignment2/OOSE Assingment 2 v2/src/main/java/edu/curtin/App/App.java">
 <violation beginline="2" endline="2" begincolumn="1" endcolumn="24" rule="PackageCase" ruleset="Code Style" package="edu.curtin.App" class="App" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.3.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
 Package name contains upper case characters

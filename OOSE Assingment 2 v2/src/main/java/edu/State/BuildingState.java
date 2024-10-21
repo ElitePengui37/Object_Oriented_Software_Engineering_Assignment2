@@ -13,8 +13,11 @@ public class BuildingState implements RailState
     {
         if(daysLeft > 0)
         {
+            String logString;
             daysLeft--; // decrement days left every time build is called in the object factory
-            log.info("\n\n\nDEBUG   Railways being built days remaining: " + daysLeft);
+
+            logString =  "\n\n\nDEBUG   Railways being built days remaining: " + daysLeft;
+            log.info(logString);
         }
         else if(daysLeft <= 0)
         {

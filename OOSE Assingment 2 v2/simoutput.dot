@@ -1,23 +1,10 @@
 graph Towns {
-	Further_Lilyfold
-	Hook_Crickbridge
-	Hook_Shepnor
-	East_Niggleham
-	South_Badnor
-	Larch_Dickfold
-	East_Blickhurst
-	Chipping_Gloskirk
+	Marston_Ridsell
+	Porbottom
+	Lesser_Nummill
+	Foddercastle
 
-	Further_Lilyfold -- Hook_Crickbridge
-	Hook_Crickbridge -- Hook_Shepnor
-	Hook_Crickbridge -- Further_Lilyfold
-	Hook_Crickbridge -- East_Niggleham
-	Hook_Shepnor -- Further_Lilyfold [color="black:black"]
-	Further_Lilyfold -- East_Niggleham [color="black:black"]
-	South_Badnor -- East_Niggleham
-	Further_Lilyfold -- Larch_Dickfold
-	Larch_Dickfold -- Hook_Crickbridge
-	Larch_Dickfold -- East_Niggleham [color="black:black"]
-	East_Blickhurst -- Hook_Shepnor [color="black:black"]
-	South_Badnor -- Further_Lilyfold [style="dashed"]
+	Porbottom -- Marston_Ridsell
+	Marston_Ridsell -- Lesser_Nummill [color="black:black"]
+	Lesser_Nummill -- Porbottom [style="dashed",color="black:black"]
 }

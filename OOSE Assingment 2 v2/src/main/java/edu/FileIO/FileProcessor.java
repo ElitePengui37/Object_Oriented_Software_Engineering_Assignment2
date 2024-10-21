@@ -86,8 +86,9 @@ public class FileProcessor implements Observer
         } 
         catch (IOException e) 
         {
+            String logError = "File Processing Error " + e;
             System.out.println("An error has occured in file writing: " + e);
-            log.severe("File Processing Error " + e);
+            log.severe(logError);
         }
     }
 }
