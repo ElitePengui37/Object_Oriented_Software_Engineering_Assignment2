@@ -18,4 +18,24 @@ My object factory utilizes dependency injection as the msgList is passed into it
 
 
 e)
-My Observer pattern has been utilized
+My Observer pattern has been utilized to provide daily updates to the FileIO and GUI objects. It consists of the Subject class, the observer interface, and the observers which recieve all the updates and inherit the interface.
+
+The daily update works by first adding the inherited observers into a list of observers held in the subject class. Next, every day the 
+recieve update method is called and clears all of yesterdays data and replaces it with the most up to date information. Afterwards the notifyObservers method is called which calls the update method in every observer that is on the observers list.
+
+This pattern is useful when multiple classes need to be notified about changes as well as being a good pattern that is very easy to expand with more observers.
+
+
+
+f)
+The state pattern adds a layer of complexity for the transportation of goods as it takes time for the railways to be built. I utilized the State pattern for my application. with two states building and built and the transitions from building->built as well as allowing only once to go back to building for the construction of 2 way railways.
+
+
+My state pattern consists of the RailwayController class, the RailState Interface, the two inherited railway states (BuiltState and BuildingState) as well as some calling of methods and simple logic that happens in the object factory.
+
+The logic of this implementation of state pattern starts from the object factory which has a list of railway controllers so that the state of every railway may be checked. Whenever a new railway is created it is added to the controllers list and later the startBuilding method is called for all controllers.
+For two way tracks the method updateTwoWay is called instead which modifies the state back to building state.
+The build method is called every day and the days left is decremented accordingly. When the days left reaches 0, the state is transitioned into built and when the build method is called again nothing will happen as the state is already built.
+
+
+The implementation of the state pattern provided useful simulated build times for railways and new states can be added relitively easily, however, only two different states were sufficient for this assignment.
